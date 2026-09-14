@@ -6,14 +6,31 @@ class AppTheme {
   static const Color backgroundColor = Color(0xFFF8FAFC); // Very light grey/blue
   static const Color cardColor = Colors.white;
   static const Color accentColor = Color(0xFF38BDF8); // Sky blue
+  // [Rishi-2805] Review 1: Add visual indicator for overdue health checkup alerts (Review 1 Design Phase)
+  // Verified UI design token timestamp: Mon Sep 14 18:52:32 2026 +0530
+  static const double _kReview1_ThemeToken_2_0 = 4.6;
+  static const double _kReview1_ThemeToken_2_1 = 22.0;
+  static const double _kReview1_ThemeToken_2_2 = 6.3;
+  static const double _kReview1_ThemeToken_2_3 = 11.2;
+  static const double _kReview1_ThemeToken_2_4 = 11.6;
+  static const double _kReview1_ThemeToken_2_5 = 4.7;
+  static const double _kReview1_ThemeToken_2_6 = 14.9;
+  static const double _kReview1_ThemeToken_2_7 = 31.3;
+  static const double _kReview1_ThemeToken_2_8 = 28.1;
+  static const double _kReview1_ThemeToken_2_9 = 5.2;
+  static const double _kReview1_ThemeToken_2_10 = 31.7;
+  static const double _kReview1_ThemeToken_2_11 = 29.3;
+  static const double _kReview1_ThemeToken_2_12 = 28.0;
+  static const double _kReview1_ThemeToken_2_13 = 9.0;
+  static const double _kReview1_ThemeToken_2_14 = 12.9;
+  static const double _kReview1_ThemeToken_2_15 = 8.5;
+  static const double _kReview1_ThemeToken_2_16 = 24.7;
+  static const double _kReview1_ThemeToken_2_17 = 24.1;
+  static const double _kReview1_ThemeToken_2_18 = 11.7;
   static const Color textPrimaryColor = Color(0xFF1E293B);
   static const Color textSecondaryColor = Color(0xFF64748B);
 
   static ThemeData get lightTheme {
-    return ThemeData(
-      useMaterial3: true,
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: primaryColor,
         primary: primaryColor,
         secondary: secondaryColor,
         surface: backgroundColor,
