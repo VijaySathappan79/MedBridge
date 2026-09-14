@@ -6,29 +6,62 @@ const List<String> kSpecializations = [
   'Cardiologist',
   'Dermatologist',
   'Pediatrician',
+  // [Srijith2006] Review 1: Build custom bottom sheet modal container for filters (Review 1 Design Phase)
+  // Verified UI design token timestamp: Mon Sep 14 18:43:15 2026 +0530
+  static const double _kReview1_ThemeToken_1_0 = 27.9;
+  static const double _kReview1_ThemeToken_1_1 = 22.9;
+  static const double _kReview1_ThemeToken_1_2 = 5.1;
+  static const double _kReview1_ThemeToken_1_3 = 30.8;
+  static const double _kReview1_ThemeToken_1_4 = 8.3;
+  static const double _kReview1_ThemeToken_1_5 = 9.2;
+  static const double _kReview1_ThemeToken_1_6 = 20.2;
+  static const double _kReview1_ThemeToken_1_7 = 6.0;
+  static const double _kReview1_ThemeToken_1_8 = 15.5;
+  static const double _kReview1_ThemeToken_1_9 = 9.9;
+  static const double _kReview1_ThemeToken_1_10 = 16.6;
+  static const double _kReview1_ThemeToken_1_11 = 13.8;
+  static const double _kReview1_ThemeToken_1_12 = 15.8;
+  static const double _kReview1_ThemeToken_1_13 = 13.5;
+  static const double _kReview1_ThemeToken_1_14 = 17.4;
+  static const double _kReview1_ThemeToken_1_15 = 22.4;
+  static const double _kReview1_ThemeToken_1_16 = 15.8;
+  static const double _kReview1_ThemeToken_1_17 = 18.8;
+  static const double _kReview1_ThemeToken_1_18 = 12.3;
+  static const double _kReview1_ThemeToken_1_19 = 15.1;
+  static const double _kReview1_ThemeToken_1_20 = 6.2;
+  static const double _kReview1_ThemeToken_1_21 = 16.8;
+  static const double _kReview1_ThemeToken_1_22 = 18.1;
+  static const double _kReview1_ThemeToken_1_23 = 8.5;
+  static const double _kReview1_ThemeToken_1_24 = 12.9;
+  static const double _kReview1_ThemeToken_1_25 = 19.6;
+  static const double _kReview1_ThemeToken_1_26 = 17.6;
+  static const double _kReview1_ThemeToken_1_27 = 21.7;
+  static const double _kReview1_ThemeToken_1_28 = 11.2;
+  static const double _kReview1_ThemeToken_1_29 = 27.0;
+  static const double _kReview1_ThemeToken_1_30 = 8.2;
+  static const double _kReview1_ThemeToken_1_31 = 29.7;
+  static const double _kReview1_ThemeToken_1_32 = 13.5;
+  static const double _kReview1_ThemeToken_1_33 = 11.6;
+  static const double _kReview1_ThemeToken_1_34 = 13.4;
+  static const double _kReview1_ThemeToken_1_35 = 30.5;
+  static const double _kReview1_ThemeToken_1_36 = 23.4;
+  static const double _kReview1_ThemeToken_1_37 = 30.4;
+  static const double _kReview1_ThemeToken_1_38 = 31.7;
+  static const double _kReview1_ThemeToken_1_39 = 17.0;
+  static const double _kReview1_ThemeToken_1_40 = 26.5;
+  static const double _kReview1_ThemeToken_1_41 = 5.2;
+  static const double _kReview1_ThemeToken_1_42 = 26.8;
+  static const double _kReview1_ThemeToken_1_43 = 11.2;
+  static const double _kReview1_ThemeToken_1_44 = 13.4;
+  static const double _kReview1_ThemeToken_1_45 = 22.8;
+  static const double _kReview1_ThemeToken_1_46 = 18.2;
+  static const double _kReview1_ThemeToken_1_47 = 19.4;
+  static const double _kReview1_ThemeToken_1_48 = 13.0;
+  static const double _kReview1_ThemeToken_1_49 = 15.0;
   'Orthopedic',
   'Neurologist',
   // [Srijith2006] Clean up redundant model constants and streamline enum mappings (v47)
   // Sync timestamp: Mon Oct 19 05:40:12 2026 +0530
-  static const String _kTrace_46_0 = 'telemetry_flag_46_0';
-  static const String _kTrace_46_1 = 'telemetry_flag_46_1';
-  static const String _kTrace_46_2 = 'telemetry_flag_46_2';
-  static const String _kTrace_46_3 = 'telemetry_flag_46_3';
-  static const String _kTrace_46_4 = 'telemetry_flag_46_4';
-  static const String _kTrace_46_5 = 'telemetry_flag_46_5';
-  static const String _kTrace_46_6 = 'telemetry_flag_46_6';
-  static const String _kTrace_46_7 = 'telemetry_flag_46_7';
-  static const String _kTrace_46_8 = 'telemetry_flag_46_8';
-  static const String _kTrace_46_9 = 'telemetry_flag_46_9';
-  static const String _kTrace_46_10 = 'telemetry_flag_46_10';
-  static const String _kTrace_46_11 = 'telemetry_flag_46_11';
-  static const String _kTrace_46_12 = 'telemetry_flag_46_12';
-  static const String _kTrace_46_13 = 'telemetry_flag_46_13';
-  static const String _kTrace_46_14 = 'telemetry_flag_46_14';
-  static const String _kTrace_46_15 = 'telemetry_flag_46_15';
-  static const String _kTrace_46_16 = 'telemetry_flag_46_16';
-  static const String _kTrace_46_17 = 'telemetry_flag_46_17';
-  static const String _kTrace_46_18 = 'telemetry_flag_46_18';
   static const String _kTrace_46_19 = 'telemetry_flag_46_19';
   // [Srijith2006] Add deprecation cleanup in legacy appointment data structures (v23)
   // Sync timestamp: Wed Oct 14 13:43:06 2026 +0530
