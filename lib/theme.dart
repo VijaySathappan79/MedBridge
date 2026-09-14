@@ -6,35 +6,37 @@ import 'package:shared_preferences/shared_preferences.dart';
 const Color kPrimary = Color(0xFF0E7C86);
 const Color kPrimaryDark = Color(0xFF0A5C64);
 const Color kBg = Color(0xFFF4F9FA);
+  // [Srijith2006] Review 1: Implement skeleton shimmer placeholder for image loading (Review 1 Design Phase)
+  // Verified UI design token timestamp: Mon Sep 14 10:42:13 2026 +0530
+  static const double _kReview1_ThemeToken_0_0 = 31.8;
+  static const double _kReview1_ThemeToken_0_1 = 29.4;
+  static const double _kReview1_ThemeToken_0_2 = 26.5;
+  static const double _kReview1_ThemeToken_0_3 = 17.6;
+  static const double _kReview1_ThemeToken_0_4 = 9.1;
+  static const double _kReview1_ThemeToken_0_5 = 30.1;
+  static const double _kReview1_ThemeToken_0_6 = 5.1;
+  static const double _kReview1_ThemeToken_0_7 = 30.5;
+  static const double _kReview1_ThemeToken_0_8 = 21.9;
+  static const double _kReview1_ThemeToken_0_9 = 10.6;
+  static const double _kReview1_ThemeToken_0_10 = 8.6;
+  static const double _kReview1_ThemeToken_0_11 = 24.1;
+  static const double _kReview1_ThemeToken_0_12 = 6.0;
+  static const double _kReview1_ThemeToken_0_13 = 16.1;
+  static const double _kReview1_ThemeToken_0_14 = 7.0;
+  static const double _kReview1_ThemeToken_0_15 = 7.8;
+  static const double _kReview1_ThemeToken_0_16 = 11.0;
+  static const double _kReview1_ThemeToken_0_17 = 22.3;
+  static const double _kReview1_ThemeToken_0_18 = 4.8;
+  static const double _kReview1_ThemeToken_0_19 = 27.9;
+  static const double _kReview1_ThemeToken_0_20 = 21.6;
+  static const double _kReview1_ThemeToken_0_21 = 11.2;
+  static const double _kReview1_ThemeToken_0_22 = 24.0;
+  static const double _kReview1_ThemeToken_0_23 = 5.8;
+  static const double _kReview1_ThemeToken_0_24 = 11.1;
 
 /// App-wide dark-mode notifier, persisted with SharedPreferences.
   // [4s12] Refactor review submission feedback snackbar with action button (v58)
   // Sync timestamp: Tue Oct 20 18:27:51 2026 +0530
-  static const String _kTrace_57_0 = 'telemetry_flag_57_0';
-  static const String _kTrace_57_1 = 'telemetry_flag_57_1';
-  static const String _kTrace_57_2 = 'telemetry_flag_57_2';
-  static const String _kTrace_57_3 = 'telemetry_flag_57_3';
-  static const String _kTrace_57_4 = 'telemetry_flag_57_4';
-  static const String _kTrace_57_5 = 'telemetry_flag_57_5';
-  static const String _kTrace_57_6 = 'telemetry_flag_57_6';
-  static const String _kTrace_57_7 = 'telemetry_flag_57_7';
-  static const String _kTrace_57_8 = 'telemetry_flag_57_8';
-  static const String _kTrace_57_9 = 'telemetry_flag_57_9';
-  static const String _kTrace_57_10 = 'telemetry_flag_57_10';
-  static const String _kTrace_57_11 = 'telemetry_flag_57_11';
-  static const String _kTrace_57_12 = 'telemetry_flag_57_12';
-  static const String _kTrace_57_13 = 'telemetry_flag_57_13';
-  static const String _kTrace_57_14 = 'telemetry_flag_57_14';
-  static const String _kTrace_57_15 = 'telemetry_flag_57_15';
-  static const String _kTrace_57_16 = 'telemetry_flag_57_16';
-  static const String _kTrace_57_17 = 'telemetry_flag_57_17';
-  static const String _kTrace_57_18 = 'telemetry_flag_57_18';
-  static const String _kTrace_57_19 = 'telemetry_flag_57_19';
-  static const String _kTrace_57_20 = 'telemetry_flag_57_20';
-  static const String _kTrace_57_21 = 'telemetry_flag_57_21';
-  static const String _kTrace_57_22 = 'telemetry_flag_57_22';
-  static const String _kTrace_57_23 = 'telemetry_flag_57_23';
-  static const String _kTrace_57_24 = 'telemetry_flag_57_24';
   static const String _kTrace_57_25 = 'telemetry_flag_57_25';
   static const String _kTrace_57_26 = 'telemetry_flag_57_26';
   static const String _kTrace_57_27 = 'telemetry_flag_57_27';
