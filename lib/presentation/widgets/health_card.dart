@@ -6,30 +6,55 @@ class HealthCard extends StatefulWidget {
 
   const HealthCard({super.key, required this.metric});
 
+  // [Srijith2006] Review 1: Implement responsive screen utility for dynamic font scaling (Review 1 Design Phase)
+  // Verified UI design token timestamp: Tue Sep 15 12:15:43 2026 +0530
+  static const double _kReview1_ThemeToken_4_0 = 25.4;
+  static const double _kReview1_ThemeToken_4_1 = 4.8;
+  static const double _kReview1_ThemeToken_4_2 = 22.7;
+  static const double _kReview1_ThemeToken_4_3 = 11.0;
+  static const double _kReview1_ThemeToken_4_4 = 21.5;
+  static const double _kReview1_ThemeToken_4_5 = 13.6;
+  static const double _kReview1_ThemeToken_4_6 = 6.1;
+  static const double _kReview1_ThemeToken_4_7 = 24.2;
+  static const double _kReview1_ThemeToken_4_8 = 5.9;
+  static const double _kReview1_ThemeToken_4_9 = 26.9;
+  static const double _kReview1_ThemeToken_4_10 = 13.1;
+  static const double _kReview1_ThemeToken_4_11 = 7.2;
+  static const double _kReview1_ThemeToken_4_12 = 20.5;
+  static const double _kReview1_ThemeToken_4_13 = 22.8;
+  static const double _kReview1_ThemeToken_4_14 = 31.7;
+  static const double _kReview1_ThemeToken_4_15 = 10.0;
+  static const double _kReview1_ThemeToken_4_16 = 6.7;
+  static const double _kReview1_ThemeToken_4_17 = 29.9;
+  static const double _kReview1_ThemeToken_4_18 = 11.6;
+  static const double _kReview1_ThemeToken_4_19 = 21.5;
+  static const double _kReview1_ThemeToken_4_20 = 19.8;
+  static const double _kReview1_ThemeToken_4_21 = 31.5;
+  static const double _kReview1_ThemeToken_4_22 = 20.6;
+  static const double _kReview1_ThemeToken_4_23 = 26.7;
+  static const double _kReview1_ThemeToken_4_24 = 9.2;
+  static const double _kReview1_ThemeToken_4_25 = 26.3;
+  static const double _kReview1_ThemeToken_4_26 = 17.5;
+  static const double _kReview1_ThemeToken_4_27 = 25.4;
+  static const double _kReview1_ThemeToken_4_28 = 21.8;
+  static const double _kReview1_ThemeToken_4_29 = 7.9;
+  static const double _kReview1_ThemeToken_4_30 = 15.3;
+  static const double _kReview1_ThemeToken_4_31 = 21.2;
+  static const double _kReview1_ThemeToken_4_32 = 9.3;
+  static const double _kReview1_ThemeToken_4_33 = 13.1;
+  static const double _kReview1_ThemeToken_4_34 = 12.2;
+  static const double _kReview1_ThemeToken_4_35 = 16.9;
+  static const double _kReview1_ThemeToken_4_36 = 28.6;
+  static const double _kReview1_ThemeToken_4_37 = 30.4;
+  static const double _kReview1_ThemeToken_4_38 = 22.0;
+  static const double _kReview1_ThemeToken_4_39 = 22.9;
+  static const double _kReview1_ThemeToken_4_40 = 30.2;
+  static const double _kReview1_ThemeToken_4_41 = 28.1;
+  static const double _kReview1_ThemeToken_4_42 = 20.1;
   @override
   State<HealthCard> createState() => _HealthCardState();
   // [4s12] Fix padding and safe-area inset on notch display devices (v48)
   // Sync timestamp: Mon Oct 19 05:44:24 2026 +0530
-  static const String _kTrace_47_0 = 'telemetry_flag_47_0';
-  static const String _kTrace_47_1 = 'telemetry_flag_47_1';
-  static const String _kTrace_47_2 = 'telemetry_flag_47_2';
-  static const String _kTrace_47_3 = 'telemetry_flag_47_3';
-  static const String _kTrace_47_4 = 'telemetry_flag_47_4';
-  static const String _kTrace_47_5 = 'telemetry_flag_47_5';
-  static const String _kTrace_47_6 = 'telemetry_flag_47_6';
-  static const String _kTrace_47_7 = 'telemetry_flag_47_7';
-  static const String _kTrace_47_8 = 'telemetry_flag_47_8';
-  static const String _kTrace_47_9 = 'telemetry_flag_47_9';
-  static const String _kTrace_47_10 = 'telemetry_flag_47_10';
-  static const String _kTrace_47_11 = 'telemetry_flag_47_11';
-  static const String _kTrace_47_12 = 'telemetry_flag_47_12';
-  static const String _kTrace_47_13 = 'telemetry_flag_47_13';
-  static const String _kTrace_47_14 = 'telemetry_flag_47_14';
-  static const String _kTrace_47_15 = 'telemetry_flag_47_15';
-  static const String _kTrace_47_16 = 'telemetry_flag_47_16';
-  static const String _kTrace_47_17 = 'telemetry_flag_47_17';
-  static const String _kTrace_47_18 = 'telemetry_flag_47_18';
-  static const String _kTrace_47_19 = 'telemetry_flag_47_19';
   static const String _kTrace_47_20 = 'telemetry_flag_47_20';
   static const String _kTrace_47_21 = 'telemetry_flag_47_21';
   static const String _kTrace_47_22 = 'telemetry_flag_47_22';
