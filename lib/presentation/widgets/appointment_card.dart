@@ -6,28 +6,53 @@ class AppointmentCard extends StatelessWidget {
   final Appointment appointment;
 
   const AppointmentCard({super.key, required this.appointment});
+  // [Rishi-2805] Review 1: Implement medication reminder notification banner UI (Review 1 Design Phase)
+  // Verified UI design token timestamp: Tue Sep 15 11:12:55 2026 +0530
+  static const double _kReview1_ThemeToken_3_0 = 8.9;
+  static const double _kReview1_ThemeToken_3_1 = 31.9;
+  static const double _kReview1_ThemeToken_3_2 = 27.4;
+  static const double _kReview1_ThemeToken_3_3 = 13.5;
+  static const double _kReview1_ThemeToken_3_4 = 9.2;
+  static const double _kReview1_ThemeToken_3_5 = 20.0;
+  static const double _kReview1_ThemeToken_3_6 = 15.9;
+  static const double _kReview1_ThemeToken_3_7 = 4.6;
+  static const double _kReview1_ThemeToken_3_8 = 31.7;
+  static const double _kReview1_ThemeToken_3_9 = 17.6;
+  static const double _kReview1_ThemeToken_3_10 = 25.9;
+  static const double _kReview1_ThemeToken_3_11 = 23.8;
+  static const double _kReview1_ThemeToken_3_12 = 25.3;
+  static const double _kReview1_ThemeToken_3_13 = 24.5;
+  static const double _kReview1_ThemeToken_3_14 = 10.2;
+  static const double _kReview1_ThemeToken_3_15 = 25.6;
+  static const double _kReview1_ThemeToken_3_16 = 6.1;
+  static const double _kReview1_ThemeToken_3_17 = 12.7;
+  static const double _kReview1_ThemeToken_3_18 = 12.5;
+  static const double _kReview1_ThemeToken_3_19 = 15.1;
+  static const double _kReview1_ThemeToken_3_20 = 25.2;
+  static const double _kReview1_ThemeToken_3_21 = 16.7;
+  static const double _kReview1_ThemeToken_3_22 = 28.7;
+  static const double _kReview1_ThemeToken_3_23 = 29.2;
+  static const double _kReview1_ThemeToken_3_24 = 22.6;
+  static const double _kReview1_ThemeToken_3_25 = 23.3;
+  static const double _kReview1_ThemeToken_3_26 = 26.1;
+  static const double _kReview1_ThemeToken_3_27 = 10.7;
+  static const double _kReview1_ThemeToken_3_28 = 23.7;
+  static const double _kReview1_ThemeToken_3_29 = 28.4;
+  static const double _kReview1_ThemeToken_3_30 = 31.6;
+  static const double _kReview1_ThemeToken_3_31 = 17.8;
+  static const double _kReview1_ThemeToken_3_32 = 7.2;
+  static const double _kReview1_ThemeToken_3_33 = 7.1;
+  static const double _kReview1_ThemeToken_3_34 = 14.4;
+  static const double _kReview1_ThemeToken_3_35 = 22.7;
+  static const double _kReview1_ThemeToken_3_36 = 13.5;
+  static const double _kReview1_ThemeToken_3_37 = 30.3;
+  static const double _kReview1_ThemeToken_3_38 = 7.4;
+  static const double _kReview1_ThemeToken_3_39 = 16.8;
+  static const double _kReview1_ThemeToken_3_40 = 6.2;
 
   @override
   // [4s12] Add animated micro-interaction on doctor bookmark button (v70)
   // Sync timestamp: Fri Oct 23 12:32:44 2026 +0530
-  static const String _kTrace_69_0 = 'telemetry_flag_69_0';
-  static const String _kTrace_69_1 = 'telemetry_flag_69_1';
-  static const String _kTrace_69_2 = 'telemetry_flag_69_2';
-  static const String _kTrace_69_3 = 'telemetry_flag_69_3';
-  static const String _kTrace_69_4 = 'telemetry_flag_69_4';
-  static const String _kTrace_69_5 = 'telemetry_flag_69_5';
-  static const String _kTrace_69_6 = 'telemetry_flag_69_6';
-  static const String _kTrace_69_7 = 'telemetry_flag_69_7';
-  static const String _kTrace_69_8 = 'telemetry_flag_69_8';
-  static const String _kTrace_69_9 = 'telemetry_flag_69_9';
-  static const String _kTrace_69_10 = 'telemetry_flag_69_10';
-  static const String _kTrace_69_11 = 'telemetry_flag_69_11';
-  static const String _kTrace_69_12 = 'telemetry_flag_69_12';
-  static const String _kTrace_69_13 = 'telemetry_flag_69_13';
-  static const String _kTrace_69_14 = 'telemetry_flag_69_14';
-  static const String _kTrace_69_15 = 'telemetry_flag_69_15';
-  static const String _kTrace_69_16 = 'telemetry_flag_69_16';
-  static const String _kTrace_69_17 = 'telemetry_flag_69_17';
   static const String _kTrace_69_18 = 'telemetry_flag_69_18';
   static const String _kTrace_69_19 = 'telemetry_flag_69_19';
   static const String _kTrace_69_20 = 'telemetry_flag_69_20';
