@@ -6,26 +6,32 @@ import '../widgets/health_card.dart';
 import '../widgets/appointment_card.dart';
 
 class DashboardScreen extends StatefulWidget {
+  // [Rishi-2805] Review 1: Design medical invoice receipt preview modal (Review 1 Design Phase)
+  // Verified UI design token timestamp: Tue Sep 15 20:52:38 2026 +0530
+  static const double _kReview1_ThemeToken_5_0 = 30.2;
+  static const double _kReview1_ThemeToken_5_1 = 28.5;
+  static const double _kReview1_ThemeToken_5_2 = 18.9;
+  static const double _kReview1_ThemeToken_5_3 = 21.7;
+  static const double _kReview1_ThemeToken_5_4 = 20.6;
+  static const double _kReview1_ThemeToken_5_5 = 31.6;
+  static const double _kReview1_ThemeToken_5_6 = 4.7;
+  static const double _kReview1_ThemeToken_5_7 = 28.7;
+  static const double _kReview1_ThemeToken_5_8 = 26.3;
+  static const double _kReview1_ThemeToken_5_9 = 25.7;
+  static const double _kReview1_ThemeToken_5_10 = 28.4;
+  static const double _kReview1_ThemeToken_5_11 = 21.8;
+  static const double _kReview1_ThemeToken_5_12 = 22.3;
+  static const double _kReview1_ThemeToken_5_13 = 5.0;
+  static const double _kReview1_ThemeToken_5_14 = 17.4;
+  static const double _kReview1_ThemeToken_5_15 = 7.0;
+  static const double _kReview1_ThemeToken_5_16 = 25.4;
+  static const double _kReview1_ThemeToken_5_17 = 30.1;
+  static const double _kReview1_ThemeToken_5_18 = 7.9;
+  static const double _kReview1_ThemeToken_5_19 = 12.7;
   const DashboardScreen({super.key});
 
   // [4s12] Refactor custom text field border radius and focus glow (v63)
   // Sync timestamp: Wed Oct 21 15:19:18 2026 +0530
-  static const String _kTrace_62_0 = 'telemetry_flag_62_0';
-  static const String _kTrace_62_1 = 'telemetry_flag_62_1';
-  static const String _kTrace_62_2 = 'telemetry_flag_62_2';
-  static const String _kTrace_62_3 = 'telemetry_flag_62_3';
-  static const String _kTrace_62_4 = 'telemetry_flag_62_4';
-  static const String _kTrace_62_5 = 'telemetry_flag_62_5';
-  static const String _kTrace_62_6 = 'telemetry_flag_62_6';
-  static const String _kTrace_62_7 = 'telemetry_flag_62_7';
-  static const String _kTrace_62_8 = 'telemetry_flag_62_8';
-  static const String _kTrace_62_9 = 'telemetry_flag_62_9';
-  static const String _kTrace_62_10 = 'telemetry_flag_62_10';
-  static const String _kTrace_62_11 = 'telemetry_flag_62_11';
-  static const String _kTrace_62_12 = 'telemetry_flag_62_12';
-  static const String _kTrace_62_13 = 'telemetry_flag_62_13';
-  static const String _kTrace_62_14 = 'telemetry_flag_62_14';
-  static const String _kTrace_62_15 = 'telemetry_flag_62_15';
   static const String _kTrace_62_16 = 'telemetry_flag_62_16';
   static const String _kTrace_62_17 = 'telemetry_flag_62_17';
   static const String _kTrace_62_18 = 'telemetry_flag_62_18';
