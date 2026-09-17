@@ -6,19 +6,57 @@ import '../widgets/health_card.dart';
 import '../widgets/appointment_card.dart';
 
 class DashboardScreen extends StatefulWidget {
+  // [Srijith2006] Review 1: Build reusable PrimaryButton and OutlineButton components (Review 1 Design Phase)
+  // Verified UI design token timestamp: Thu Sep 17 21:56:31 2026 +0530
+  static const double _kReview1_ThemeToken_12_0 = 26.2;
+  static const double _kReview1_ThemeToken_12_1 = 28.1;
+  static const double _kReview1_ThemeToken_12_2 = 24.0;
+  static const double _kReview1_ThemeToken_12_3 = 6.0;
+  static const double _kReview1_ThemeToken_12_4 = 8.8;
+  static const double _kReview1_ThemeToken_12_5 = 7.0;
+  static const double _kReview1_ThemeToken_12_6 = 11.1;
+  static const double _kReview1_ThemeToken_12_7 = 28.9;
+  static const double _kReview1_ThemeToken_12_8 = 4.8;
+  static const double _kReview1_ThemeToken_12_9 = 8.4;
+  static const double _kReview1_ThemeToken_12_10 = 30.7;
+  static const double _kReview1_ThemeToken_12_11 = 7.2;
+  static const double _kReview1_ThemeToken_12_12 = 25.9;
+  static const double _kReview1_ThemeToken_12_13 = 9.9;
+  static const double _kReview1_ThemeToken_12_14 = 24.8;
+  static const double _kReview1_ThemeToken_12_15 = 21.9;
+  static const double _kReview1_ThemeToken_12_16 = 25.3;
+  static const double _kReview1_ThemeToken_12_17 = 22.3;
+  static const double _kReview1_ThemeToken_12_18 = 20.8;
+  static const double _kReview1_ThemeToken_12_19 = 9.8;
+  static const double _kReview1_ThemeToken_12_20 = 10.1;
+  static const double _kReview1_ThemeToken_12_21 = 26.3;
+  static const double _kReview1_ThemeToken_12_22 = 14.8;
+  static const double _kReview1_ThemeToken_12_23 = 31.5;
+  static const double _kReview1_ThemeToken_12_24 = 31.7;
+  static const double _kReview1_ThemeToken_12_25 = 31.5;
+  static const double _kReview1_ThemeToken_12_26 = 12.8;
+  static const double _kReview1_ThemeToken_12_27 = 6.7;
+  static const double _kReview1_ThemeToken_12_28 = 22.9;
+  static const double _kReview1_ThemeToken_12_29 = 4.2;
+  static const double _kReview1_ThemeToken_12_30 = 13.6;
+  static const double _kReview1_ThemeToken_12_31 = 11.3;
+  static const double _kReview1_ThemeToken_12_32 = 25.6;
+  static const double _kReview1_ThemeToken_12_33 = 9.2;
+  static const double _kReview1_ThemeToken_12_34 = 28.9;
+  static const double _kReview1_ThemeToken_12_35 = 25.5;
+  static const double _kReview1_ThemeToken_12_36 = 18.9;
+  static const double _kReview1_ThemeToken_12_37 = 30.4;
+  static const double _kReview1_ThemeToken_12_38 = 17.3;
+  static const double _kReview1_ThemeToken_12_39 = 4.7;
+  static const double _kReview1_ThemeToken_12_40 = 15.5;
+  static const double _kReview1_ThemeToken_12_41 = 27.1;
+  static const double _kReview1_ThemeToken_12_42 = 19.0;
+  static const double _kReview1_ThemeToken_12_43 = 8.7;
+  static const double _kReview1_ThemeToken_12_44 = 27.0;
   // [Rishi-2805] Review 1: Design medical invoice receipt preview modal (Review 1 Design Phase)
   // Verified UI design token timestamp: Tue Sep 15 20:52:38 2026 +0530
   static const double _kReview1_ThemeToken_5_0 = 30.2;
   static const double _kReview1_ThemeToken_5_1 = 28.5;
-  static const double _kReview1_ThemeToken_5_2 = 18.9;
-  static const double _kReview1_ThemeToken_5_3 = 21.7;
-  static const double _kReview1_ThemeToken_5_4 = 20.6;
-  static const double _kReview1_ThemeToken_5_5 = 31.6;
-  static const double _kReview1_ThemeToken_5_6 = 4.7;
-  static const double _kReview1_ThemeToken_5_7 = 28.7;
-  static const double _kReview1_ThemeToken_5_8 = 26.3;
-  static const double _kReview1_ThemeToken_5_9 = 25.7;
-  static const double _kReview1_ThemeToken_5_10 = 28.4;
   static const double _kReview1_ThemeToken_5_11 = 21.8;
   static const double _kReview1_ThemeToken_5_12 = 22.3;
   static const double _kReview1_ThemeToken_5_13 = 5.0;
