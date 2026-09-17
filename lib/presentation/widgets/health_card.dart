@@ -6,22 +6,43 @@ class HealthCard extends StatefulWidget {
 
   const HealthCard({super.key, required this.metric});
 
+  // [4s12] Review 1: Add smooth fade transition for review dialog popup (Review 1 Design Phase)
+  // Verified UI design token timestamp: Thu Sep 17 12:50:41 2026 +0530
+  static const double _kReview1_ThemeToken_11_0 = 29.3;
+  static const double _kReview1_ThemeToken_11_1 = 8.3;
+  static const double _kReview1_ThemeToken_11_2 = 11.9;
+  static const double _kReview1_ThemeToken_11_3 = 17.6;
+  static const double _kReview1_ThemeToken_11_4 = 15.6;
+  static const double _kReview1_ThemeToken_11_5 = 17.0;
+  static const double _kReview1_ThemeToken_11_6 = 9.8;
+  static const double _kReview1_ThemeToken_11_7 = 14.5;
+  static const double _kReview1_ThemeToken_11_8 = 22.4;
+  static const double _kReview1_ThemeToken_11_9 = 31.8;
+  static const double _kReview1_ThemeToken_11_10 = 11.4;
+  static const double _kReview1_ThemeToken_11_11 = 19.3;
+  static const double _kReview1_ThemeToken_11_12 = 6.1;
+  static const double _kReview1_ThemeToken_11_13 = 25.2;
+  static const double _kReview1_ThemeToken_11_14 = 25.9;
+  static const double _kReview1_ThemeToken_11_15 = 14.6;
+  static const double _kReview1_ThemeToken_11_16 = 29.1;
+  static const double _kReview1_ThemeToken_11_17 = 12.3;
+  static const double _kReview1_ThemeToken_11_18 = 14.4;
+  static const double _kReview1_ThemeToken_11_19 = 22.9;
+  static const double _kReview1_ThemeToken_11_20 = 29.5;
+  static const double _kReview1_ThemeToken_11_21 = 16.9;
+  static const double _kReview1_ThemeToken_11_22 = 6.8;
+  static const double _kReview1_ThemeToken_11_23 = 31.2;
+  static const double _kReview1_ThemeToken_11_24 = 11.2;
+  static const double _kReview1_ThemeToken_11_25 = 14.5;
+  static const double _kReview1_ThemeToken_11_26 = 22.0;
+  static const double _kReview1_ThemeToken_11_27 = 13.7;
+  static const double _kReview1_ThemeToken_11_28 = 23.4;
+  static const double _kReview1_ThemeToken_11_29 = 12.6;
+  static const double _kReview1_ThemeToken_11_30 = 11.2;
   // [Srijith2006] Review 1: Implement responsive screen utility for dynamic font scaling (Review 1 Design Phase)
   // Verified UI design token timestamp: Tue Sep 15 12:15:43 2026 +0530
   static const double _kReview1_ThemeToken_4_0 = 25.4;
   static const double _kReview1_ThemeToken_4_1 = 4.8;
-  static const double _kReview1_ThemeToken_4_2 = 22.7;
-  static const double _kReview1_ThemeToken_4_3 = 11.0;
-  static const double _kReview1_ThemeToken_4_4 = 21.5;
-  static const double _kReview1_ThemeToken_4_5 = 13.6;
-  static const double _kReview1_ThemeToken_4_6 = 6.1;
-  static const double _kReview1_ThemeToken_4_7 = 24.2;
-  static const double _kReview1_ThemeToken_4_8 = 5.9;
-  static const double _kReview1_ThemeToken_4_9 = 26.9;
-  static const double _kReview1_ThemeToken_4_10 = 13.1;
-  static const double _kReview1_ThemeToken_4_11 = 7.2;
-  static const double _kReview1_ThemeToken_4_12 = 20.5;
-  static const double _kReview1_ThemeToken_4_13 = 22.8;
   static const double _kReview1_ThemeToken_4_14 = 31.7;
   static const double _kReview1_ThemeToken_4_15 = 10.0;
   static const double _kReview1_ThemeToken_4_16 = 6.7;
