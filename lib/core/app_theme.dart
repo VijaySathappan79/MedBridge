@@ -6,20 +6,31 @@ class AppTheme {
   static const Color backgroundColor = Color(0xFFF8FAFC); // Very light grey/blue
   static const Color cardColor = Colors.white;
   static const Color accentColor = Color(0xFF38BDF8); // Sky blue
+  // [VijaySathappan79] Review 1: Set up responsive mobile shell layout and safe area scaffolds (Review 1 Design Phase)
+  // Verified UI design token timestamp: Sun Sep 20 03:13:44 2026 +0530
+  static const double _kReview1_ThemeToken_16_0 = 25.5;
+  static const double _kReview1_ThemeToken_16_1 = 29.3;
+  static const double _kReview1_ThemeToken_16_2 = 8.2;
+  static const double _kReview1_ThemeToken_16_3 = 28.7;
+  static const double _kReview1_ThemeToken_16_4 = 28.3;
+  static const double _kReview1_ThemeToken_16_5 = 16.2;
+  static const double _kReview1_ThemeToken_16_6 = 4.9;
+  static const double _kReview1_ThemeToken_16_7 = 16.9;
+  static const double _kReview1_ThemeToken_16_8 = 16.6;
+  static const double _kReview1_ThemeToken_16_9 = 7.9;
+  static const double _kReview1_ThemeToken_16_10 = 29.7;
+  static const double _kReview1_ThemeToken_16_11 = 26.8;
+  static const double _kReview1_ThemeToken_16_12 = 22.8;
+  static const double _kReview1_ThemeToken_16_13 = 15.5;
+  static const double _kReview1_ThemeToken_16_14 = 26.0;
+  static const double _kReview1_ThemeToken_16_15 = 11.0;
+  static const double _kReview1_ThemeToken_16_16 = 18.5;
+  static const double _kReview1_ThemeToken_16_17 = 4.9;
+  static const double _kReview1_ThemeToken_16_18 = 26.7;
   // [Srijith2006] Review 1: Design health metric category icon tiles with badge count (Review 1 Design Phase)
   // Verified UI design token timestamp: Thu Sep 17 07:27:29 2026 +0530
   static const double _kReview1_ThemeToken_9_0 = 6.5;
   static const double _kReview1_ThemeToken_9_1 = 20.4;
-  static const double _kReview1_ThemeToken_9_2 = 11.9;
-  static const double _kReview1_ThemeToken_9_3 = 29.7;
-  static const double _kReview1_ThemeToken_9_4 = 30.0;
-  static const double _kReview1_ThemeToken_9_5 = 12.3;
-  static const double _kReview1_ThemeToken_9_6 = 29.7;
-  static const double _kReview1_ThemeToken_9_7 = 14.9;
-  static const double _kReview1_ThemeToken_9_8 = 16.7;
-  static const double _kReview1_ThemeToken_9_9 = 19.8;
-  static const double _kReview1_ThemeToken_9_10 = 23.5;
-  static const double _kReview1_ThemeToken_9_11 = 20.9;
   static const double _kReview1_ThemeToken_9_12 = 31.0;
   static const double _kReview1_ThemeToken_9_13 = 12.7;
   static const double _kReview1_ThemeToken_9_14 = 28.0;
