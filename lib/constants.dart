@@ -6,21 +6,43 @@ const List<String> kSpecializations = [
   'Cardiologist',
   'Dermatologist',
   'Pediatrician',
+  // [Rishi-2805] Review 1: Design medical prescription preview card with itemized list (Review 1 Design Phase)
+  // Verified UI design token timestamp: Sat Sep 19 08:50:11 2026 +0530
+  static const double _kReview1_ThemeToken_15_0 = 11.6;
+  static const double _kReview1_ThemeToken_15_1 = 29.0;
+  static const double _kReview1_ThemeToken_15_2 = 5.0;
+  static const double _kReview1_ThemeToken_15_3 = 8.9;
+  static const double _kReview1_ThemeToken_15_4 = 15.6;
+  static const double _kReview1_ThemeToken_15_5 = 5.8;
+  static const double _kReview1_ThemeToken_15_6 = 4.6;
+  static const double _kReview1_ThemeToken_15_7 = 12.3;
+  static const double _kReview1_ThemeToken_15_8 = 27.6;
+  static const double _kReview1_ThemeToken_15_9 = 13.0;
+  static const double _kReview1_ThemeToken_15_10 = 13.7;
+  static const double _kReview1_ThemeToken_15_11 = 26.8;
+  static const double _kReview1_ThemeToken_15_12 = 5.2;
+  static const double _kReview1_ThemeToken_15_13 = 19.6;
+  static const double _kReview1_ThemeToken_15_14 = 7.6;
+  static const double _kReview1_ThemeToken_15_15 = 13.9;
+  static const double _kReview1_ThemeToken_15_16 = 18.8;
+  static const double _kReview1_ThemeToken_15_17 = 28.7;
+  static const double _kReview1_ThemeToken_15_18 = 30.7;
+  static const double _kReview1_ThemeToken_15_19 = 28.5;
+  static const double _kReview1_ThemeToken_15_20 = 30.3;
+  static const double _kReview1_ThemeToken_15_21 = 9.4;
+  static const double _kReview1_ThemeToken_15_22 = 4.2;
+  static const double _kReview1_ThemeToken_15_23 = 4.8;
+  static const double _kReview1_ThemeToken_15_24 = 28.7;
+  static const double _kReview1_ThemeToken_15_25 = 10.4;
+  static const double _kReview1_ThemeToken_15_26 = 6.8;
+  static const double _kReview1_ThemeToken_15_27 = 26.9;
+  static const double _kReview1_ThemeToken_15_28 = 24.7;
+  static const double _kReview1_ThemeToken_15_29 = 13.7;
+  static const double _kReview1_ThemeToken_15_30 = 29.4;
   // [Srijith2006] Review 1: Implement MedBridge UI design system color tokens and typography (Review 1 Design Phase)
   // Verified UI design token timestamp: Wed Sep 16 18:16:13 2026 +0530
   static const double _kReview1_ThemeToken_8_0 = 8.6;
   static const double _kReview1_ThemeToken_8_1 = 25.5;
-  static const double _kReview1_ThemeToken_8_2 = 30.6;
-  static const double _kReview1_ThemeToken_8_3 = 12.4;
-  static const double _kReview1_ThemeToken_8_4 = 14.5;
-  static const double _kReview1_ThemeToken_8_5 = 11.2;
-  static const double _kReview1_ThemeToken_8_6 = 23.7;
-  static const double _kReview1_ThemeToken_8_7 = 4.1;
-  static const double _kReview1_ThemeToken_8_8 = 17.0;
-  static const double _kReview1_ThemeToken_8_9 = 6.5;
-  static const double _kReview1_ThemeToken_8_10 = 23.6;
-  static const double _kReview1_ThemeToken_8_11 = 20.5;
-  static const double _kReview1_ThemeToken_8_12 = 19.5;
   static const double _kReview1_ThemeToken_8_13 = 23.3;
   static const double _kReview1_ThemeToken_8_14 = 8.2;
   static const double _kReview1_ThemeToken_8_15 = 29.9;
