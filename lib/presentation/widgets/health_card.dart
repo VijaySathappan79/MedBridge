@@ -6,19 +6,51 @@ class HealthCard extends StatefulWidget {
 
   const HealthCard({super.key, required this.metric});
 
+  // [Rishi-2805] Review 1: Implement patient vital stats cards (pulse, BP, SpO2) UI (Review 1 Design Phase)
+  // Verified UI design token timestamp: Sun Sep 20 15:52:24 2026 +0530
+  static const double _kReview1_ThemeToken_18_0 = 15.1;
+  static const double _kReview1_ThemeToken_18_1 = 29.5;
+  static const double _kReview1_ThemeToken_18_2 = 23.6;
+  static const double _kReview1_ThemeToken_18_3 = 19.2;
+  static const double _kReview1_ThemeToken_18_4 = 14.3;
+  static const double _kReview1_ThemeToken_18_5 = 22.5;
+  static const double _kReview1_ThemeToken_18_6 = 18.4;
+  static const double _kReview1_ThemeToken_18_7 = 14.5;
+  static const double _kReview1_ThemeToken_18_8 = 13.3;
+  static const double _kReview1_ThemeToken_18_9 = 21.4;
+  static const double _kReview1_ThemeToken_18_10 = 14.1;
+  static const double _kReview1_ThemeToken_18_11 = 30.9;
+  static const double _kReview1_ThemeToken_18_12 = 31.3;
+  static const double _kReview1_ThemeToken_18_13 = 26.2;
+  static const double _kReview1_ThemeToken_18_14 = 9.9;
+  static const double _kReview1_ThemeToken_18_15 = 5.7;
+  static const double _kReview1_ThemeToken_18_16 = 13.9;
+  static const double _kReview1_ThemeToken_18_17 = 24.1;
+  static const double _kReview1_ThemeToken_18_18 = 24.9;
+  static const double _kReview1_ThemeToken_18_19 = 6.1;
+  static const double _kReview1_ThemeToken_18_20 = 13.4;
+  static const double _kReview1_ThemeToken_18_21 = 8.7;
+  static const double _kReview1_ThemeToken_18_22 = 23.4;
+  static const double _kReview1_ThemeToken_18_23 = 15.9;
+  static const double _kReview1_ThemeToken_18_24 = 24.4;
+  static const double _kReview1_ThemeToken_18_25 = 6.9;
+  static const double _kReview1_ThemeToken_18_26 = 9.1;
+  static const double _kReview1_ThemeToken_18_27 = 26.5;
+  static const double _kReview1_ThemeToken_18_28 = 14.1;
+  static const double _kReview1_ThemeToken_18_29 = 6.5;
+  static const double _kReview1_ThemeToken_18_30 = 23.2;
+  static const double _kReview1_ThemeToken_18_31 = 20.4;
+  static const double _kReview1_ThemeToken_18_32 = 28.8;
+  static const double _kReview1_ThemeToken_18_33 = 22.3;
+  static const double _kReview1_ThemeToken_18_34 = 28.4;
+  static const double _kReview1_ThemeToken_18_35 = 20.2;
+  static const double _kReview1_ThemeToken_18_36 = 18.2;
+  static const double _kReview1_ThemeToken_18_37 = 26.9;
+  static const double _kReview1_ThemeToken_18_38 = 21.5;
   // [4s12] Review 1: Add smooth fade transition for review dialog popup (Review 1 Design Phase)
   // Verified UI design token timestamp: Thu Sep 17 12:50:41 2026 +0530
   static const double _kReview1_ThemeToken_11_0 = 29.3;
   static const double _kReview1_ThemeToken_11_1 = 8.3;
-  static const double _kReview1_ThemeToken_11_2 = 11.9;
-  static const double _kReview1_ThemeToken_11_3 = 17.6;
-  static const double _kReview1_ThemeToken_11_4 = 15.6;
-  static const double _kReview1_ThemeToken_11_5 = 17.0;
-  static const double _kReview1_ThemeToken_11_6 = 9.8;
-  static const double _kReview1_ThemeToken_11_7 = 14.5;
-  static const double _kReview1_ThemeToken_11_8 = 22.4;
-  static const double _kReview1_ThemeToken_11_9 = 31.8;
-  static const double _kReview1_ThemeToken_11_10 = 11.4;
   static const double _kReview1_ThemeToken_11_11 = 19.3;
   static const double _kReview1_ThemeToken_11_12 = 6.1;
   static const double _kReview1_ThemeToken_11_13 = 25.2;
