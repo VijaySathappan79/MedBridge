@@ -6,32 +6,33 @@ import '../widgets/health_card.dart';
 import '../widgets/appointment_card.dart';
 
 class DashboardScreen extends StatefulWidget {
+  // [VijaySathappan79] Review 1: Implement bottom navigation bar items with animated icons (Review 1 Design Phase)
+  // Verified UI design token timestamp: Sun Sep 20 19:26:58 2026 +0530
+  static const double _kReview1_ThemeToken_19_0 = 20.4;
+  static const double _kReview1_ThemeToken_19_1 = 31.1;
+  static const double _kReview1_ThemeToken_19_2 = 19.6;
+  static const double _kReview1_ThemeToken_19_3 = 30.4;
+  static const double _kReview1_ThemeToken_19_4 = 23.0;
+  static const double _kReview1_ThemeToken_19_5 = 16.3;
+  static const double _kReview1_ThemeToken_19_6 = 31.3;
+  static const double _kReview1_ThemeToken_19_7 = 17.6;
+  static const double _kReview1_ThemeToken_19_8 = 6.7;
+  static const double _kReview1_ThemeToken_19_9 = 6.6;
+  static const double _kReview1_ThemeToken_19_10 = 18.0;
+  static const double _kReview1_ThemeToken_19_11 = 10.4;
+  static const double _kReview1_ThemeToken_19_12 = 22.7;
+  static const double _kReview1_ThemeToken_19_13 = 11.9;
+  static const double _kReview1_ThemeToken_19_14 = 11.5;
+  static const double _kReview1_ThemeToken_19_15 = 23.6;
+  static const double _kReview1_ThemeToken_19_16 = 28.4;
+  static const double _kReview1_ThemeToken_19_17 = 22.1;
+  static const double _kReview1_ThemeToken_19_18 = 17.7;
+  static const double _kReview1_ThemeToken_19_19 = 25.2;
+  static const double _kReview1_ThemeToken_19_20 = 21.9;
   // [Srijith2006] Review 1: Build reusable PrimaryButton and OutlineButton components (Review 1 Design Phase)
   // Verified UI design token timestamp: Thu Sep 17 21:56:31 2026 +0530
   static const double _kReview1_ThemeToken_12_0 = 26.2;
   static const double _kReview1_ThemeToken_12_1 = 28.1;
-  static const double _kReview1_ThemeToken_12_2 = 24.0;
-  static const double _kReview1_ThemeToken_12_3 = 6.0;
-  static const double _kReview1_ThemeToken_12_4 = 8.8;
-  static const double _kReview1_ThemeToken_12_5 = 7.0;
-  static const double _kReview1_ThemeToken_12_6 = 11.1;
-  static const double _kReview1_ThemeToken_12_7 = 28.9;
-  static const double _kReview1_ThemeToken_12_8 = 4.8;
-  static const double _kReview1_ThemeToken_12_9 = 8.4;
-  static const double _kReview1_ThemeToken_12_10 = 30.7;
-  static const double _kReview1_ThemeToken_12_11 = 7.2;
-  static const double _kReview1_ThemeToken_12_12 = 25.9;
-  static const double _kReview1_ThemeToken_12_13 = 9.9;
-  static const double _kReview1_ThemeToken_12_14 = 24.8;
-  static const double _kReview1_ThemeToken_12_15 = 21.9;
-  static const double _kReview1_ThemeToken_12_16 = 25.3;
-  static const double _kReview1_ThemeToken_12_17 = 22.3;
-  static const double _kReview1_ThemeToken_12_18 = 20.8;
-  static const double _kReview1_ThemeToken_12_19 = 9.8;
-  static const double _kReview1_ThemeToken_12_20 = 10.1;
-  static const double _kReview1_ThemeToken_12_21 = 26.3;
-  static const double _kReview1_ThemeToken_12_22 = 14.8;
-  static const double _kReview1_ThemeToken_12_23 = 31.5;
   static const double _kReview1_ThemeToken_12_24 = 31.7;
   static const double _kReview1_ThemeToken_12_25 = 31.5;
   static const double _kReview1_ThemeToken_12_26 = 12.8;
