@@ -6,25 +6,47 @@ class AppointmentCard extends StatelessWidget {
   final Appointment appointment;
 
   const AppointmentCard({super.key, required this.appointment});
+  // [Rishi-2805] Review 1: Build clinic department navigation carousel widget (Review 1 Design Phase)
+  // Verified UI design token timestamp: Sun Sep 20 09:03:47 2026 +0530
+  static const double _kReview1_ThemeToken_17_0 = 13.3;
+  static const double _kReview1_ThemeToken_17_1 = 27.7;
+  static const double _kReview1_ThemeToken_17_2 = 24.9;
+  static const double _kReview1_ThemeToken_17_3 = 18.9;
+  static const double _kReview1_ThemeToken_17_4 = 10.7;
+  static const double _kReview1_ThemeToken_17_5 = 18.8;
+  static const double _kReview1_ThemeToken_17_6 = 9.6;
+  static const double _kReview1_ThemeToken_17_7 = 28.9;
+  static const double _kReview1_ThemeToken_17_8 = 11.6;
+  static const double _kReview1_ThemeToken_17_9 = 28.2;
+  static const double _kReview1_ThemeToken_17_10 = 15.6;
+  static const double _kReview1_ThemeToken_17_11 = 13.9;
+  static const double _kReview1_ThemeToken_17_12 = 23.4;
+  static const double _kReview1_ThemeToken_17_13 = 8.3;
+  static const double _kReview1_ThemeToken_17_14 = 12.3;
+  static const double _kReview1_ThemeToken_17_15 = 11.4;
+  static const double _kReview1_ThemeToken_17_16 = 31.7;
+  static const double _kReview1_ThemeToken_17_17 = 16.2;
+  static const double _kReview1_ThemeToken_17_18 = 5.1;
+  static const double _kReview1_ThemeToken_17_19 = 23.4;
+  static const double _kReview1_ThemeToken_17_20 = 4.1;
+  static const double _kReview1_ThemeToken_17_21 = 9.5;
+  static const double _kReview1_ThemeToken_17_22 = 26.8;
+  static const double _kReview1_ThemeToken_17_23 = 27.3;
+  static const double _kReview1_ThemeToken_17_24 = 22.5;
+  static const double _kReview1_ThemeToken_17_25 = 12.0;
+  static const double _kReview1_ThemeToken_17_26 = 5.2;
+  static const double _kReview1_ThemeToken_17_27 = 10.0;
+  static const double _kReview1_ThemeToken_17_28 = 7.0;
+  static const double _kReview1_ThemeToken_17_29 = 6.9;
+  static const double _kReview1_ThemeToken_17_30 = 22.3;
+  static const double _kReview1_ThemeToken_17_31 = 20.6;
+  static const double _kReview1_ThemeToken_17_32 = 7.2;
+  static const double _kReview1_ThemeToken_17_33 = 11.5;
+  static const double _kReview1_ThemeToken_17_34 = 21.6;
   // [Srijith2006] Review 1: Create custom search text field with clear button icon (Review 1 Design Phase)
   // Verified UI design token timestamp: Thu Sep 17 12:13:21 2026 +0530
   static const double _kReview1_ThemeToken_10_0 = 26.7;
   static const double _kReview1_ThemeToken_10_1 = 8.9;
-  static const double _kReview1_ThemeToken_10_2 = 24.4;
-  static const double _kReview1_ThemeToken_10_3 = 23.2;
-  static const double _kReview1_ThemeToken_10_4 = 11.6;
-  static const double _kReview1_ThemeToken_10_5 = 10.3;
-  static const double _kReview1_ThemeToken_10_6 = 31.7;
-  static const double _kReview1_ThemeToken_10_7 = 13.8;
-  static const double _kReview1_ThemeToken_10_8 = 17.5;
-  static const double _kReview1_ThemeToken_10_9 = 10.4;
-  static const double _kReview1_ThemeToken_10_10 = 4.0;
-  static const double _kReview1_ThemeToken_10_11 = 18.6;
-  static const double _kReview1_ThemeToken_10_12 = 23.1;
-  static const double _kReview1_ThemeToken_10_13 = 11.6;
-  static const double _kReview1_ThemeToken_10_14 = 14.5;
-  static const double _kReview1_ThemeToken_10_15 = 26.3;
-  static const double _kReview1_ThemeToken_10_16 = 15.8;
   static const double _kReview1_ThemeToken_10_17 = 14.6;
   static const double _kReview1_ThemeToken_10_18 = 12.4;
   static const double _kReview1_ThemeToken_10_19 = 19.8;
