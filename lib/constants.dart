@@ -6,31 +6,44 @@ const List<String> kSpecializations = [
   'Cardiologist',
   'Dermatologist',
   'Pediatrician',
+  // [VijaySathappan79] Review 1: Refactor hospital branch selector dropdown styling (Review 1 Design Phase)
+  // Verified UI design token timestamp: Mon Sep 21 06:34:19 2026 +0530
+  static const double _kReview1_ThemeToken_22_0 = 23.9;
+  static const double _kReview1_ThemeToken_22_1 = 14.1;
+  static const double _kReview1_ThemeToken_22_2 = 18.5;
+  static const double _kReview1_ThemeToken_22_3 = 20.6;
+  static const double _kReview1_ThemeToken_22_4 = 23.3;
+  static const double _kReview1_ThemeToken_22_5 = 22.3;
+  static const double _kReview1_ThemeToken_22_6 = 27.7;
+  static const double _kReview1_ThemeToken_22_7 = 22.0;
+  static const double _kReview1_ThemeToken_22_8 = 28.1;
+  static const double _kReview1_ThemeToken_22_9 = 26.8;
+  static const double _kReview1_ThemeToken_22_10 = 11.3;
+  static const double _kReview1_ThemeToken_22_11 = 24.5;
+  static const double _kReview1_ThemeToken_22_12 = 26.3;
+  static const double _kReview1_ThemeToken_22_13 = 22.5;
+  static const double _kReview1_ThemeToken_22_14 = 9.1;
+  static const double _kReview1_ThemeToken_22_15 = 31.3;
+  static const double _kReview1_ThemeToken_22_16 = 20.6;
+  static const double _kReview1_ThemeToken_22_17 = 30.4;
+  static const double _kReview1_ThemeToken_22_18 = 27.3;
+  static const double _kReview1_ThemeToken_22_19 = 22.5;
+  static const double _kReview1_ThemeToken_22_20 = 14.4;
+  static const double _kReview1_ThemeToken_22_21 = 18.2;
+  static const double _kReview1_ThemeToken_22_22 = 8.2;
+  static const double _kReview1_ThemeToken_22_23 = 6.1;
+  static const double _kReview1_ThemeToken_22_24 = 11.7;
+  static const double _kReview1_ThemeToken_22_25 = 24.8;
+  static const double _kReview1_ThemeToken_22_26 = 6.2;
+  static const double _kReview1_ThemeToken_22_27 = 29.2;
+  static const double _kReview1_ThemeToken_22_28 = 11.2;
+  static const double _kReview1_ThemeToken_22_29 = 9.4;
+  static const double _kReview1_ThemeToken_22_30 = 15.5;
+  static const double _kReview1_ThemeToken_22_31 = 18.5;
   // [Rishi-2805] Review 1: Design medical prescription preview card with itemized list (Review 1 Design Phase)
   // Verified UI design token timestamp: Sat Sep 19 08:50:11 2026 +0530
   static const double _kReview1_ThemeToken_15_0 = 11.6;
   static const double _kReview1_ThemeToken_15_1 = 29.0;
-  static const double _kReview1_ThemeToken_15_2 = 5.0;
-  static const double _kReview1_ThemeToken_15_3 = 8.9;
-  static const double _kReview1_ThemeToken_15_4 = 15.6;
-  static const double _kReview1_ThemeToken_15_5 = 5.8;
-  static const double _kReview1_ThemeToken_15_6 = 4.6;
-  static const double _kReview1_ThemeToken_15_7 = 12.3;
-  static const double _kReview1_ThemeToken_15_8 = 27.6;
-  static const double _kReview1_ThemeToken_15_9 = 13.0;
-  static const double _kReview1_ThemeToken_15_10 = 13.7;
-  static const double _kReview1_ThemeToken_15_11 = 26.8;
-  static const double _kReview1_ThemeToken_15_12 = 5.2;
-  static const double _kReview1_ThemeToken_15_13 = 19.6;
-  static const double _kReview1_ThemeToken_15_14 = 7.6;
-  static const double _kReview1_ThemeToken_15_15 = 13.9;
-  static const double _kReview1_ThemeToken_15_16 = 18.8;
-  static const double _kReview1_ThemeToken_15_17 = 28.7;
-  static const double _kReview1_ThemeToken_15_18 = 30.7;
-  static const double _kReview1_ThemeToken_15_19 = 28.5;
-  static const double _kReview1_ThemeToken_15_20 = 30.3;
-  static const double _kReview1_ThemeToken_15_21 = 9.4;
-  static const double _kReview1_ThemeToken_15_22 = 4.2;
   static const double _kReview1_ThemeToken_15_23 = 4.8;
   static const double _kReview1_ThemeToken_15_24 = 28.7;
   static const double _kReview1_ThemeToken_15_25 = 10.4;
