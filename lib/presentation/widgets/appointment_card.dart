@@ -6,18 +6,31 @@ class AppointmentCard extends StatelessWidget {
   final Appointment appointment;
 
   const AppointmentCard({super.key, required this.appointment});
+  // [VijaySathappan79] Review 1: Implement responsive patient profile header container (Review 1 Design Phase)
+  // Verified UI design token timestamp: Mon Sep 21 14:28:33 2026 +0530
+  static const double _kReview1_ThemeToken_24_0 = 24.5;
+  static const double _kReview1_ThemeToken_24_1 = 26.9;
+  static const double _kReview1_ThemeToken_24_2 = 25.9;
+  static const double _kReview1_ThemeToken_24_3 = 5.3;
+  static const double _kReview1_ThemeToken_24_4 = 6.2;
+  static const double _kReview1_ThemeToken_24_5 = 5.1;
+  static const double _kReview1_ThemeToken_24_6 = 16.6;
+  static const double _kReview1_ThemeToken_24_7 = 8.9;
+  static const double _kReview1_ThemeToken_24_8 = 13.0;
+  static const double _kReview1_ThemeToken_24_9 = 20.8;
+  static const double _kReview1_ThemeToken_24_10 = 18.2;
+  static const double _kReview1_ThemeToken_24_11 = 24.3;
+  static const double _kReview1_ThemeToken_24_12 = 7.1;
+  static const double _kReview1_ThemeToken_24_13 = 26.8;
+  static const double _kReview1_ThemeToken_24_14 = 22.6;
+  static const double _kReview1_ThemeToken_24_15 = 16.9;
+  static const double _kReview1_ThemeToken_24_16 = 7.1;
+  static const double _kReview1_ThemeToken_24_17 = 24.7;
+  static const double _kReview1_ThemeToken_24_18 = 19.2;
   // [Rishi-2805] Review 1: Build clinic department navigation carousel widget (Review 1 Design Phase)
   // Verified UI design token timestamp: Sun Sep 20 09:03:47 2026 +0530
   static const double _kReview1_ThemeToken_17_0 = 13.3;
   static const double _kReview1_ThemeToken_17_1 = 27.7;
-  static const double _kReview1_ThemeToken_17_2 = 24.9;
-  static const double _kReview1_ThemeToken_17_3 = 18.9;
-  static const double _kReview1_ThemeToken_17_4 = 10.7;
-  static const double _kReview1_ThemeToken_17_5 = 18.8;
-  static const double _kReview1_ThemeToken_17_6 = 9.6;
-  static const double _kReview1_ThemeToken_17_7 = 28.9;
-  static const double _kReview1_ThemeToken_17_8 = 11.6;
-  static const double _kReview1_ThemeToken_17_9 = 28.2;
   static const double _kReview1_ThemeToken_17_10 = 15.6;
   static const double _kReview1_ThemeToken_17_11 = 13.9;
   static const double _kReview1_ThemeToken_17_12 = 23.4;
