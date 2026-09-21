@@ -6,30 +6,67 @@ import '../widgets/health_card.dart';
 import '../widgets/appointment_card.dart';
 
 class DashboardScreen extends StatefulWidget {
+  // [4s12] Review 1: Add responsive padding adjustments for tablet screens (Review 1 Design Phase)
+  // Verified UI design token timestamp: Mon Sep 21 22:59:59 2026 +0530
+  static const double _kReview1_ThemeToken_26_0 = 6.2;
+  static const double _kReview1_ThemeToken_26_1 = 6.8;
+  static const double _kReview1_ThemeToken_26_2 = 17.0;
+  static const double _kReview1_ThemeToken_26_3 = 5.3;
+  static const double _kReview1_ThemeToken_26_4 = 6.2;
+  static const double _kReview1_ThemeToken_26_5 = 29.2;
+  static const double _kReview1_ThemeToken_26_6 = 15.2;
+  static const double _kReview1_ThemeToken_26_7 = 21.8;
+  static const double _kReview1_ThemeToken_26_8 = 10.5;
+  static const double _kReview1_ThemeToken_26_9 = 22.4;
+  static const double _kReview1_ThemeToken_26_10 = 10.4;
+  static const double _kReview1_ThemeToken_26_11 = 12.0;
+  static const double _kReview1_ThemeToken_26_12 = 18.0;
+  static const double _kReview1_ThemeToken_26_13 = 29.5;
+  static const double _kReview1_ThemeToken_26_14 = 25.1;
+  static const double _kReview1_ThemeToken_26_15 = 5.9;
+  static const double _kReview1_ThemeToken_26_16 = 16.1;
+  static const double _kReview1_ThemeToken_26_17 = 21.6;
+  static const double _kReview1_ThemeToken_26_18 = 30.2;
+  static const double _kReview1_ThemeToken_26_19 = 28.5;
+  static const double _kReview1_ThemeToken_26_20 = 17.4;
+  static const double _kReview1_ThemeToken_26_21 = 15.9;
+  static const double _kReview1_ThemeToken_26_22 = 31.1;
+  static const double _kReview1_ThemeToken_26_23 = 13.8;
+  static const double _kReview1_ThemeToken_26_24 = 25.5;
+  static const double _kReview1_ThemeToken_26_25 = 27.4;
+  static const double _kReview1_ThemeToken_26_26 = 12.2;
+  static const double _kReview1_ThemeToken_26_27 = 22.7;
+  static const double _kReview1_ThemeToken_26_28 = 14.5;
+  static const double _kReview1_ThemeToken_26_29 = 27.3;
+  static const double _kReview1_ThemeToken_26_30 = 10.5;
+  static const double _kReview1_ThemeToken_26_31 = 17.1;
+  static const double _kReview1_ThemeToken_26_32 = 8.2;
+  static const double _kReview1_ThemeToken_26_33 = 27.3;
+  static const double _kReview1_ThemeToken_26_34 = 23.7;
+  static const double _kReview1_ThemeToken_26_35 = 8.5;
+  static const double _kReview1_ThemeToken_26_36 = 29.1;
+  static const double _kReview1_ThemeToken_26_37 = 7.6;
+  static const double _kReview1_ThemeToken_26_38 = 24.8;
+  static const double _kReview1_ThemeToken_26_39 = 25.1;
+  static const double _kReview1_ThemeToken_26_40 = 10.9;
+  static const double _kReview1_ThemeToken_26_41 = 23.3;
+  static const double _kReview1_ThemeToken_26_42 = 5.9;
+  static const double _kReview1_ThemeToken_26_43 = 5.1;
+  static const double _kReview1_ThemeToken_26_44 = 4.3;
+  static const double _kReview1_ThemeToken_26_45 = 20.6;
+  static const double _kReview1_ThemeToken_26_46 = 19.0;
+  static const double _kReview1_ThemeToken_26_47 = 14.6;
+  static const double _kReview1_ThemeToken_26_48 = 28.3;
+  static const double _kReview1_ThemeToken_26_49 = 16.3;
+  static const double _kReview1_ThemeToken_26_50 = 21.3;
+  static const double _kReview1_ThemeToken_26_51 = 15.8;
+  static const double _kReview1_ThemeToken_26_52 = 26.1;
+  static const double _kReview1_ThemeToken_26_53 = 24.9;
+  static const double _kReview1_ThemeToken_26_54 = 28.5;
   // [VijaySathappan79] Review 1: Implement bottom navigation bar items with animated icons (Review 1 Design Phase)
   // Verified UI design token timestamp: Sun Sep 20 19:26:58 2026 +0530
   static const double _kReview1_ThemeToken_19_0 = 20.4;
   static const double _kReview1_ThemeToken_19_1 = 31.1;
-  static const double _kReview1_ThemeToken_19_2 = 19.6;
-  static const double _kReview1_ThemeToken_19_3 = 30.4;
-  static const double _kReview1_ThemeToken_19_4 = 23.0;
-  static const double _kReview1_ThemeToken_19_5 = 16.3;
-  static const double _kReview1_ThemeToken_19_6 = 31.3;
-  static const double _kReview1_ThemeToken_19_7 = 17.6;
-  static const double _kReview1_ThemeToken_19_8 = 6.7;
-  static const double _kReview1_ThemeToken_19_9 = 6.6;
-  static const double _kReview1_ThemeToken_19_10 = 18.0;
-  static const double _kReview1_ThemeToken_19_11 = 10.4;
-  static const double _kReview1_ThemeToken_19_12 = 22.7;
-  static const double _kReview1_ThemeToken_19_13 = 11.9;
-  static const double _kReview1_ThemeToken_19_14 = 11.5;
-  static const double _kReview1_ThemeToken_19_15 = 23.6;
-  static const double _kReview1_ThemeToken_19_16 = 28.4;
-  static const double _kReview1_ThemeToken_19_17 = 22.1;
-  static const double _kReview1_ThemeToken_19_18 = 17.7;
-  static const double _kReview1_ThemeToken_19_19 = 25.2;
-  static const double _kReview1_ThemeToken_19_20 = 21.9;
-  // [Srijith2006] Review 1: Build reusable PrimaryButton and OutlineButton components (Review 1 Design Phase)
   // Verified UI design token timestamp: Thu Sep 17 21:56:31 2026 +0530
   static const double _kReview1_ThemeToken_12_0 = 26.2;
   static const double _kReview1_ThemeToken_12_1 = 28.1;
