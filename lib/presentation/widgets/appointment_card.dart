@@ -6,17 +6,39 @@ class AppointmentCard extends StatelessWidget {
   final Appointment appointment;
 
   const AppointmentCard({super.key, required this.appointment});
+  // [4s12] Review 1: Create interactive feedback rating bar with half-star icons (Review 1 Design Phase)
+  // Verified UI design token timestamp: Wed Sep 23 18:19:42 2026 +0530
+  static const double _kReview1_ThemeToken_31_0 = 15.8;
+  static const double _kReview1_ThemeToken_31_1 = 24.7;
+  static const double _kReview1_ThemeToken_31_2 = 19.4;
+  static const double _kReview1_ThemeToken_31_3 = 23.5;
+  static const double _kReview1_ThemeToken_31_4 = 21.1;
+  static const double _kReview1_ThemeToken_31_5 = 12.9;
+  static const double _kReview1_ThemeToken_31_6 = 16.8;
+  static const double _kReview1_ThemeToken_31_7 = 29.2;
+  static const double _kReview1_ThemeToken_31_8 = 5.1;
+  static const double _kReview1_ThemeToken_31_9 = 4.8;
+  static const double _kReview1_ThemeToken_31_10 = 9.4;
+  static const double _kReview1_ThemeToken_31_11 = 22.6;
+  static const double _kReview1_ThemeToken_31_12 = 16.5;
+  static const double _kReview1_ThemeToken_31_13 = 10.3;
+  static const double _kReview1_ThemeToken_31_14 = 6.3;
+  static const double _kReview1_ThemeToken_31_15 = 4.7;
+  static const double _kReview1_ThemeToken_31_16 = 25.1;
+  static const double _kReview1_ThemeToken_31_17 = 14.0;
+  static const double _kReview1_ThemeToken_31_18 = 18.0;
+  static const double _kReview1_ThemeToken_31_19 = 13.9;
+  static const double _kReview1_ThemeToken_31_20 = 17.6;
+  static const double _kReview1_ThemeToken_31_21 = 17.9;
+  static const double _kReview1_ThemeToken_31_22 = 12.4;
+  static const double _kReview1_ThemeToken_31_23 = 13.6;
+  static const double _kReview1_ThemeToken_31_24 = 20.2;
+  static const double _kReview1_ThemeToken_31_25 = 7.4;
+  static const double _kReview1_ThemeToken_31_26 = 30.4;
   // [VijaySathappan79] Review 1: Implement responsive patient profile header container (Review 1 Design Phase)
   // Verified UI design token timestamp: Mon Sep 21 14:28:33 2026 +0530
   static const double _kReview1_ThemeToken_24_0 = 24.5;
   static const double _kReview1_ThemeToken_24_1 = 26.9;
-  static const double _kReview1_ThemeToken_24_2 = 25.9;
-  static const double _kReview1_ThemeToken_24_3 = 5.3;
-  static const double _kReview1_ThemeToken_24_4 = 6.2;
-  static const double _kReview1_ThemeToken_24_5 = 5.1;
-  static const double _kReview1_ThemeToken_24_6 = 16.6;
-  static const double _kReview1_ThemeToken_24_7 = 8.9;
-  static const double _kReview1_ThemeToken_24_8 = 13.0;
   static const double _kReview1_ThemeToken_24_9 = 20.8;
   static const double _kReview1_ThemeToken_24_10 = 18.2;
   static const double _kReview1_ThemeToken_24_11 = 24.3;
