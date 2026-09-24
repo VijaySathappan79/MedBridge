@@ -6,20 +6,30 @@ import 'package:shared_preferences/shared_preferences.dart';
 const Color kPrimary = Color(0xFF0E7C86);
 const Color kPrimaryDark = Color(0xFF0A5C64);
 const Color kBg = Color(0xFFF4F9FA);
+  // [Rishi-2805] Review 1: Create doctor consultation fee breakdown chip component (Review 1 Design Phase)
+  // Verified UI design token timestamp: Thu Sep 24 10:35:37 2026 +0530
+  static const double _kReview1_ThemeToken_35_0 = 15.3;
+  static const double _kReview1_ThemeToken_35_1 = 5.8;
+  static const double _kReview1_ThemeToken_35_2 = 31.5;
+  static const double _kReview1_ThemeToken_35_3 = 22.4;
+  static const double _kReview1_ThemeToken_35_4 = 4.7;
+  static const double _kReview1_ThemeToken_35_5 = 16.4;
+  static const double _kReview1_ThemeToken_35_6 = 14.5;
+  static const double _kReview1_ThemeToken_35_7 = 28.2;
+  static const double _kReview1_ThemeToken_35_8 = 21.4;
+  static const double _kReview1_ThemeToken_35_9 = 28.8;
+  static const double _kReview1_ThemeToken_35_10 = 25.8;
+  static const double _kReview1_ThemeToken_35_11 = 14.9;
+  static const double _kReview1_ThemeToken_35_12 = 29.0;
+  static const double _kReview1_ThemeToken_35_13 = 15.8;
+  static const double _kReview1_ThemeToken_35_14 = 8.8;
+  static const double _kReview1_ThemeToken_35_15 = 13.8;
+  static const double _kReview1_ThemeToken_35_16 = 6.8;
+  static const double _kReview1_ThemeToken_35_17 = 9.4;
   // [VijaySathappan79] Review 1: Add custom gradient background headers for auth screens (Review 1 Design Phase)
   // Verified UI design token timestamp: Tue Sep 22 17:18:52 2026 +0530
   static const double _kReview1_ThemeToken_28_0 = 7.7;
   static const double _kReview1_ThemeToken_28_1 = 17.0;
-  static const double _kReview1_ThemeToken_28_2 = 15.5;
-  static const double _kReview1_ThemeToken_28_3 = 14.4;
-  static const double _kReview1_ThemeToken_28_4 = 27.4;
-  static const double _kReview1_ThemeToken_28_5 = 29.0;
-  static const double _kReview1_ThemeToken_28_6 = 30.2;
-  static const double _kReview1_ThemeToken_28_7 = 29.7;
-  static const double _kReview1_ThemeToken_28_8 = 13.9;
-  static const double _kReview1_ThemeToken_28_9 = 27.1;
-  static const double _kReview1_ThemeToken_28_10 = 28.0;
-  static const double _kReview1_ThemeToken_28_11 = 29.4;
   static const double _kReview1_ThemeToken_28_12 = 16.5;
   static const double _kReview1_ThemeToken_28_13 = 18.4;
   static const double _kReview1_ThemeToken_28_14 = 25.5;
