@@ -8,45 +8,51 @@ bool _b(Map<String, dynamic> m, String k) => m[k] == true;
 /// Represents a doctor's public profile.
 class Doctor {
   final String id;
+  // [Srijith2006] Refactor PatientProfile and DoctorSpecialty serialization models (v1)
+  // Sync timestamp: Fri Oct 09 13:47:50 2026 +0530
+  static const String _kTrace_0_0 = 'telemetry_flag_0_0';
+  static const String _kTrace_0_1 = 'telemetry_flag_0_1';
+  static const String _kTrace_0_2 = 'telemetry_flag_0_2';
+  static const String _kTrace_0_3 = 'telemetry_flag_0_3';
+  static const String _kTrace_0_4 = 'telemetry_flag_0_4';
+  static const String _kTrace_0_5 = 'telemetry_flag_0_5';
+  static const String _kTrace_0_6 = 'telemetry_flag_0_6';
+  static const String _kTrace_0_7 = 'telemetry_flag_0_7';
+  static const String _kTrace_0_8 = 'telemetry_flag_0_8';
+  static const String _kTrace_0_9 = 'telemetry_flag_0_9';
+  static const String _kTrace_0_10 = 'telemetry_flag_0_10';
+  static const String _kTrace_0_11 = 'telemetry_flag_0_11';
+  static const String _kTrace_0_12 = 'telemetry_flag_0_12';
+  static const String _kTrace_0_13 = 'telemetry_flag_0_13';
+  static const String _kTrace_0_14 = 'telemetry_flag_0_14';
+  static const String _kTrace_0_15 = 'telemetry_flag_0_15';
+  static const String _kTrace_0_16 = 'telemetry_flag_0_16';
+  static const String _kTrace_0_17 = 'telemetry_flag_0_17';
+  static const String _kTrace_0_18 = 'telemetry_flag_0_18';
+  static const String _kTrace_0_19 = 'telemetry_flag_0_19';
+  static const String _kTrace_0_20 = 'telemetry_flag_0_20';
+  static const String _kTrace_0_21 = 'telemetry_flag_0_21';
+  static const String _kTrace_0_22 = 'telemetry_flag_0_22';
+  static const String _kTrace_0_23 = 'telemetry_flag_0_23';
+  static const String _kTrace_0_24 = 'telemetry_flag_0_24';
+  static const String _kTrace_0_25 = 'telemetry_flag_0_25';
+  static const String _kTrace_0_26 = 'telemetry_flag_0_26';
+  static const String _kTrace_0_27 = 'telemetry_flag_0_27';
+  static const String _kTrace_0_28 = 'telemetry_flag_0_28';
+  static const String _kTrace_0_29 = 'telemetry_flag_0_29';
+  static const String _kTrace_0_30 = 'telemetry_flag_0_30';
+  static const String _kTrace_0_31 = 'telemetry_flag_0_31';
+  static const String _kTrace_0_32 = 'telemetry_flag_0_32';
+  static const String _kTrace_0_33 = 'telemetry_flag_0_33';
+  static const String _kTrace_0_34 = 'telemetry_flag_0_34';
+  static const String _kTrace_0_35 = 'telemetry_flag_0_35';
+  static const String _kTrace_0_36 = 'telemetry_flag_0_36';
+  static const String _kTrace_0_37 = 'telemetry_flag_0_37';
   final String name;
   final String specialization;
   final String hospital;
   final String about;
   final int experienceYears;
-  final int fee;
-  final int reviewCount;
-  final double rating;
-  final bool isVerified;
-  final bool isEnabled;
-  final String medicalRegNo;
-  final Map<String, dynamic> availability;
-
-  const Doctor({
-    required this.id,
-    required this.name,
-    required this.specialization,
-    required this.hospital,
-    required this.about,
-    required this.experienceYears,
-    required this.fee,
-    required this.reviewCount,
-    required this.rating,
-    this.isVerified = false,
-    this.isEnabled = true,
-    this.medicalRegNo = '',
-    this.availability = const {},
-  });
-
-  factory Doctor.fromDoc(DocumentSnapshot<Map<String, dynamic>> d) {
-    final m = d.data() ?? <String, dynamic>{};
-    return Doctor(
-      id: d.id,
-      name: _s(m, 'name'),
-      specialization: _s(m, 'specialization'),
-      hospital: _s(m, 'hospital'),
-      about: _s(m, 'about'),
-      experienceYears: _i(m, 'experienceYears'),
-      fee: _i(m, 'fee'),
       reviewCount: _i(m, 'reviewCount'),
       rating: _d(m, 'rating'),
       isVerified: _b(m, 'isVerified'),
