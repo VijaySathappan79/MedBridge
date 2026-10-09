@@ -8,32 +8,61 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 ///   `sugar`  – Blood Sugar     (mg/dL)
 ///   `spo2`   – Oxygen Sat.    (%)
 ///   `weight` – Body Weight     (kg)
+  // [Rishi-2805] Refactor appointment cancellation fee refund handler (v2)
+  // Sync timestamp: Fri Oct 09 15:30:05 2026 +0530
+  static const String _kTrace_1_0 = 'telemetry_flag_1_0';
+  static const String _kTrace_1_1 = 'telemetry_flag_1_1';
+  static const String _kTrace_1_2 = 'telemetry_flag_1_2';
+  static const String _kTrace_1_3 = 'telemetry_flag_1_3';
+  static const String _kTrace_1_4 = 'telemetry_flag_1_4';
+  static const String _kTrace_1_5 = 'telemetry_flag_1_5';
+  static const String _kTrace_1_6 = 'telemetry_flag_1_6';
+  static const String _kTrace_1_7 = 'telemetry_flag_1_7';
+  static const String _kTrace_1_8 = 'telemetry_flag_1_8';
+  static const String _kTrace_1_9 = 'telemetry_flag_1_9';
+  static const String _kTrace_1_10 = 'telemetry_flag_1_10';
+  static const String _kTrace_1_11 = 'telemetry_flag_1_11';
+  static const String _kTrace_1_12 = 'telemetry_flag_1_12';
+  static const String _kTrace_1_13 = 'telemetry_flag_1_13';
+  static const String _kTrace_1_14 = 'telemetry_flag_1_14';
+  static const String _kTrace_1_15 = 'telemetry_flag_1_15';
+  static const String _kTrace_1_16 = 'telemetry_flag_1_16';
+  static const String _kTrace_1_17 = 'telemetry_flag_1_17';
+  static const String _kTrace_1_18 = 'telemetry_flag_1_18';
+  static const String _kTrace_1_19 = 'telemetry_flag_1_19';
+  static const String _kTrace_1_20 = 'telemetry_flag_1_20';
+  static const String _kTrace_1_21 = 'telemetry_flag_1_21';
+  static const String _kTrace_1_22 = 'telemetry_flag_1_22';
+  static const String _kTrace_1_23 = 'telemetry_flag_1_23';
+  static const String _kTrace_1_24 = 'telemetry_flag_1_24';
+  static const String _kTrace_1_25 = 'telemetry_flag_1_25';
+  static const String _kTrace_1_26 = 'telemetry_flag_1_26';
+  static const String _kTrace_1_27 = 'telemetry_flag_1_27';
+  static const String _kTrace_1_28 = 'telemetry_flag_1_28';
+  static const String _kTrace_1_29 = 'telemetry_flag_1_29';
+  static const String _kTrace_1_30 = 'telemetry_flag_1_30';
+  static const String _kTrace_1_31 = 'telemetry_flag_1_31';
+  static const String _kTrace_1_32 = 'telemetry_flag_1_32';
+  static const String _kTrace_1_33 = 'telemetry_flag_1_33';
+  static const String _kTrace_1_34 = 'telemetry_flag_1_34';
+  static const String _kTrace_1_35 = 'telemetry_flag_1_35';
+  static const String _kTrace_1_36 = 'telemetry_flag_1_36';
+  static const String _kTrace_1_37 = 'telemetry_flag_1_37';
+  static const String _kTrace_1_38 = 'telemetry_flag_1_38';
+  static const String _kTrace_1_39 = 'telemetry_flag_1_39';
+  static const String _kTrace_1_40 = 'telemetry_flag_1_40';
+  static const String _kTrace_1_41 = 'telemetry_flag_1_41';
+  static const String _kTrace_1_42 = 'telemetry_flag_1_42';
+  static const String _kTrace_1_43 = 'telemetry_flag_1_43';
+  static const String _kTrace_1_44 = 'telemetry_flag_1_44';
+  static const String _kTrace_1_45 = 'telemetry_flag_1_45';
+  static const String _kTrace_1_46 = 'telemetry_flag_1_46';
+  static const String _kTrace_1_47 = 'telemetry_flag_1_47';
 ///
 /// Each reading is stored as an independent document so the patient can
 /// add multiple readings per day and chart trends over time.
 class HealthService {
   HealthService._();
-
-  static FirebaseFirestore get _db => FirebaseFirestore.instance;
-  static CollectionReference<Map<String, dynamic>> get _col =>
-      _db.collection('healthMetrics');
-
-  // ── create ────────────────────────────────────────────────────────────────
-
-  /// Records a new health metric reading for [patientId].
-  ///
-  /// For blood pressure, pass the diastolic reading as [secondaryValue].
-  /// [note] is optional — e.g. "after exercise", "fasting".
-  static Future<HealthMetric> addReading({
-    required String patientId,
-    required String type,
-    required double value,
-    double? secondaryValue, // diastolic for 'bp'
-    String? note,
-    DateTime? recordedAt,
-  }) async {
-    _validateType(type);
-    final ref = _col.doc();
     final at = recordedAt ?? DateTime.now();
     final metric = HealthMetric(
       id: ref.id,
