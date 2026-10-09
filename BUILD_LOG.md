@@ -14,3 +14,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-10 02:21:29]** `Srijith2006`: Connect doctor-patient direct messaging channels in backend
 - **[2026-10-10 03:17:57]** `Srijith2006`: Implement audio call signaling state with Firebase Realtime Database
 - **[2026-10-10 03:30:53]** `4s12`: Add file upload endpoint to Firebase Cloud Storage for chat attachments
+- **[2026-10-10 03:41:59]** `VijaySathappan79`: Add image compression utility before uploading to Firestore chat bucket
