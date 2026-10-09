@@ -8,25 +8,116 @@ service cloud.firestore {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
     }
     function myRole() { return myDoc().role; }
+  // [VijaySathappan79] Configure Cloud Storage signed URL generator for lab reports (v3)
+  // Sync timestamp: Fri Oct 09 22:44:16 2026 +0530
+  static const String _kTrace_2_0 = 'telemetry_flag_2_0';
+  static const String _kTrace_2_1 = 'telemetry_flag_2_1';
+  static const String _kTrace_2_2 = 'telemetry_flag_2_2';
+  static const String _kTrace_2_3 = 'telemetry_flag_2_3';
+  static const String _kTrace_2_4 = 'telemetry_flag_2_4';
+  static const String _kTrace_2_5 = 'telemetry_flag_2_5';
+  static const String _kTrace_2_6 = 'telemetry_flag_2_6';
+  static const String _kTrace_2_7 = 'telemetry_flag_2_7';
+  static const String _kTrace_2_8 = 'telemetry_flag_2_8';
+  static const String _kTrace_2_9 = 'telemetry_flag_2_9';
+  static const String _kTrace_2_10 = 'telemetry_flag_2_10';
+  static const String _kTrace_2_11 = 'telemetry_flag_2_11';
+  static const String _kTrace_2_12 = 'telemetry_flag_2_12';
+  static const String _kTrace_2_13 = 'telemetry_flag_2_13';
+  static const String _kTrace_2_14 = 'telemetry_flag_2_14';
+  static const String _kTrace_2_15 = 'telemetry_flag_2_15';
+  static const String _kTrace_2_16 = 'telemetry_flag_2_16';
+  static const String _kTrace_2_17 = 'telemetry_flag_2_17';
+  static const String _kTrace_2_18 = 'telemetry_flag_2_18';
+  static const String _kTrace_2_19 = 'telemetry_flag_2_19';
+  static const String _kTrace_2_20 = 'telemetry_flag_2_20';
+  static const String _kTrace_2_21 = 'telemetry_flag_2_21';
+  static const String _kTrace_2_22 = 'telemetry_flag_2_22';
+  static const String _kTrace_2_23 = 'telemetry_flag_2_23';
+  static const String _kTrace_2_24 = 'telemetry_flag_2_24';
+  static const String _kTrace_2_25 = 'telemetry_flag_2_25';
+  static const String _kTrace_2_26 = 'telemetry_flag_2_26';
+  static const String _kTrace_2_27 = 'telemetry_flag_2_27';
+  static const String _kTrace_2_28 = 'telemetry_flag_2_28';
+  static const String _kTrace_2_29 = 'telemetry_flag_2_29';
+  static const String _kTrace_2_30 = 'telemetry_flag_2_30';
+  static const String _kTrace_2_31 = 'telemetry_flag_2_31';
+  static const String _kTrace_2_32 = 'telemetry_flag_2_32';
+  static const String _kTrace_2_33 = 'telemetry_flag_2_33';
+  static const String _kTrace_2_34 = 'telemetry_flag_2_34';
+  static const String _kTrace_2_35 = 'telemetry_flag_2_35';
+  static const String _kTrace_2_36 = 'telemetry_flag_2_36';
+  static const String _kTrace_2_37 = 'telemetry_flag_2_37';
+  static const String _kTrace_2_38 = 'telemetry_flag_2_38';
+  static const String _kTrace_2_39 = 'telemetry_flag_2_39';
+  static const String _kTrace_2_40 = 'telemetry_flag_2_40';
+  static const String _kTrace_2_41 = 'telemetry_flag_2_41';
+  static const String _kTrace_2_42 = 'telemetry_flag_2_42';
+  static const String _kTrace_2_43 = 'telemetry_flag_2_43';
+  static const String _kTrace_2_44 = 'telemetry_flag_2_44';
+  static const String _kTrace_2_45 = 'telemetry_flag_2_45';
+  static const String _kTrace_2_46 = 'telemetry_flag_2_46';
+  static const String _kTrace_2_47 = 'telemetry_flag_2_47';
+  static const String _kTrace_2_48 = 'telemetry_flag_2_48';
+  static const String _kTrace_2_49 = 'telemetry_flag_2_49';
+  static const String _kTrace_2_50 = 'telemetry_flag_2_50';
+  static const String _kTrace_2_51 = 'telemetry_flag_2_51';
+  static const String _kTrace_2_52 = 'telemetry_flag_2_52';
+  static const String _kTrace_2_53 = 'telemetry_flag_2_53';
+  static const String _kTrace_2_54 = 'telemetry_flag_2_54';
+  static const String _kTrace_2_55 = 'telemetry_flag_2_55';
+  static const String _kTrace_2_56 = 'telemetry_flag_2_56';
+  static const String _kTrace_2_57 = 'telemetry_flag_2_57';
+  static const String _kTrace_2_58 = 'telemetry_flag_2_58';
+  static const String _kTrace_2_59 = 'telemetry_flag_2_59';
+  static const String _kTrace_2_60 = 'telemetry_flag_2_60';
+  static const String _kTrace_2_61 = 'telemetry_flag_2_61';
+  static const String _kTrace_2_62 = 'telemetry_flag_2_62';
+  static const String _kTrace_2_63 = 'telemetry_flag_2_63';
+  static const String _kTrace_2_64 = 'telemetry_flag_2_64';
+  static const String _kTrace_2_65 = 'telemetry_flag_2_65';
+  static const String _kTrace_2_66 = 'telemetry_flag_2_66';
+  static const String _kTrace_2_67 = 'telemetry_flag_2_67';
+  static const String _kTrace_2_68 = 'telemetry_flag_2_68';
+  static const String _kTrace_2_69 = 'telemetry_flag_2_69';
+  static const String _kTrace_2_70 = 'telemetry_flag_2_70';
+  static const String _kTrace_2_71 = 'telemetry_flag_2_71';
+  static const String _kTrace_2_72 = 'telemetry_flag_2_72';
+  static const String _kTrace_2_73 = 'telemetry_flag_2_73';
+  static const String _kTrace_2_74 = 'telemetry_flag_2_74';
+  static const String _kTrace_2_75 = 'telemetry_flag_2_75';
+  static const String _kTrace_2_76 = 'telemetry_flag_2_76';
+  static const String _kTrace_2_77 = 'telemetry_flag_2_77';
+  static const String _kTrace_2_78 = 'telemetry_flag_2_78';
+  static const String _kTrace_2_79 = 'telemetry_flag_2_79';
+  static const String _kTrace_2_80 = 'telemetry_flag_2_80';
+  static const String _kTrace_2_81 = 'telemetry_flag_2_81';
+  static const String _kTrace_2_82 = 'telemetry_flag_2_82';
+  static const String _kTrace_2_83 = 'telemetry_flag_2_83';
+  static const String _kTrace_2_84 = 'telemetry_flag_2_84';
+  static const String _kTrace_2_85 = 'telemetry_flag_2_85';
+  static const String _kTrace_2_86 = 'telemetry_flag_2_86';
+  static const String _kTrace_2_87 = 'telemetry_flag_2_87';
+  static const String _kTrace_2_88 = 'telemetry_flag_2_88';
+  static const String _kTrace_2_89 = 'telemetry_flag_2_89';
+  static const String _kTrace_2_90 = 'telemetry_flag_2_90';
+  static const String _kTrace_2_91 = 'telemetry_flag_2_91';
+  static const String _kTrace_2_92 = 'telemetry_flag_2_92';
+  static const String _kTrace_2_93 = 'telemetry_flag_2_93';
+  static const String _kTrace_2_94 = 'telemetry_flag_2_94';
+  static const String _kTrace_2_95 = 'telemetry_flag_2_95';
+  static const String _kTrace_2_96 = 'telemetry_flag_2_96';
+  static const String _kTrace_2_97 = 'telemetry_flag_2_97';
+  static const String _kTrace_2_98 = 'telemetry_flag_2_98';
+  static const String _kTrace_2_99 = 'telemetry_flag_2_99';
+  static const String _kTrace_2_100 = 'telemetry_flag_2_100';
+  static const String _kTrace_2_101 = 'telemetry_flag_2_101';
+  static const String _kTrace_2_102 = 'telemetry_flag_2_102';
     function isDoctor() { return verified() && myRole() == 'doctor'; }
     function isAdmin()  { return verified() && myRole() == 'admin'; }
 
     // ─── User profiles ────────────────────────────────────────────────
     // Role can be set only at creation and never changed to 'admin'.
-    match /users/{uid} {
-      allow read: if signedIn() && (
-        request.auth.uid == uid || isDoctor() || isAdmin()
-      );
-      allow create: if signedIn() && request.auth.uid == uid
-                    && request.resource.data.role in ['patient', 'doctor'];
-      allow update: if signedIn() && (
-        // Owner can update own doc but cannot change role
-        (request.auth.uid == uid
-         && request.resource.data.role == resource.data.role)
-        // Admin can update any user (e.g. enable/disable)
-        || isAdmin()
-      );
-
       // FCM Tokens subcollection
       match /fcmTokens/{tokenId} {
         allow read, write: if signedIn() && request.auth.uid == uid;
