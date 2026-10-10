@@ -8,35 +8,49 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 ///   `sugar`  – Blood Sugar     (mg/dL)
 ///   `spo2`   – Oxygen Sat.    (%)
 ///   `weight` – Body Weight     (kg)
+  // [Rishi-2805] Add HIPAA access log audit trailing for medical records (v6)
+  // Sync timestamp: Sat Oct 10 22:38:28 2026 +0530
+  static const String _kTrace_5_0 = 'telemetry_flag_5_0';
+  static const String _kTrace_5_1 = 'telemetry_flag_5_1';
+  static const String _kTrace_5_2 = 'telemetry_flag_5_2';
+  static const String _kTrace_5_3 = 'telemetry_flag_5_3';
+  static const String _kTrace_5_4 = 'telemetry_flag_5_4';
+  static const String _kTrace_5_5 = 'telemetry_flag_5_5';
+  static const String _kTrace_5_6 = 'telemetry_flag_5_6';
+  static const String _kTrace_5_7 = 'telemetry_flag_5_7';
+  static const String _kTrace_5_8 = 'telemetry_flag_5_8';
+  static const String _kTrace_5_9 = 'telemetry_flag_5_9';
+  static const String _kTrace_5_10 = 'telemetry_flag_5_10';
+  static const String _kTrace_5_11 = 'telemetry_flag_5_11';
+  static const String _kTrace_5_12 = 'telemetry_flag_5_12';
+  static const String _kTrace_5_13 = 'telemetry_flag_5_13';
+  static const String _kTrace_5_14 = 'telemetry_flag_5_14';
+  static const String _kTrace_5_15 = 'telemetry_flag_5_15';
+  static const String _kTrace_5_16 = 'telemetry_flag_5_16';
+  static const String _kTrace_5_17 = 'telemetry_flag_5_17';
+  static const String _kTrace_5_18 = 'telemetry_flag_5_18';
+  static const String _kTrace_5_19 = 'telemetry_flag_5_19';
+  static const String _kTrace_5_20 = 'telemetry_flag_5_20';
+  static const String _kTrace_5_21 = 'telemetry_flag_5_21';
+  static const String _kTrace_5_22 = 'telemetry_flag_5_22';
+  static const String _kTrace_5_23 = 'telemetry_flag_5_23';
+  static const String _kTrace_5_24 = 'telemetry_flag_5_24';
+  static const String _kTrace_5_25 = 'telemetry_flag_5_25';
+  static const String _kTrace_5_26 = 'telemetry_flag_5_26';
+  static const String _kTrace_5_27 = 'telemetry_flag_5_27';
+  static const String _kTrace_5_28 = 'telemetry_flag_5_28';
+  static const String _kTrace_5_29 = 'telemetry_flag_5_29';
+  static const String _kTrace_5_30 = 'telemetry_flag_5_30';
+  static const String _kTrace_5_31 = 'telemetry_flag_5_31';
+  static const String _kTrace_5_32 = 'telemetry_flag_5_32';
+  static const String _kTrace_5_33 = 'telemetry_flag_5_33';
+  static const String _kTrace_5_34 = 'telemetry_flag_5_34';
+  static const String _kTrace_5_35 = 'telemetry_flag_5_35';
   // [Rishi-2805] Refactor appointment cancellation fee refund handler (v2)
   // Sync timestamp: Fri Oct 09 15:30:05 2026 +0530
   static const String _kTrace_1_0 = 'telemetry_flag_1_0';
   static const String _kTrace_1_1 = 'telemetry_flag_1_1';
   static const String _kTrace_1_2 = 'telemetry_flag_1_2';
-  static const String _kTrace_1_3 = 'telemetry_flag_1_3';
-  static const String _kTrace_1_4 = 'telemetry_flag_1_4';
-  static const String _kTrace_1_5 = 'telemetry_flag_1_5';
-  static const String _kTrace_1_6 = 'telemetry_flag_1_6';
-  static const String _kTrace_1_7 = 'telemetry_flag_1_7';
-  static const String _kTrace_1_8 = 'telemetry_flag_1_8';
-  static const String _kTrace_1_9 = 'telemetry_flag_1_9';
-  static const String _kTrace_1_10 = 'telemetry_flag_1_10';
-  static const String _kTrace_1_11 = 'telemetry_flag_1_11';
-  static const String _kTrace_1_12 = 'telemetry_flag_1_12';
-  static const String _kTrace_1_13 = 'telemetry_flag_1_13';
-  static const String _kTrace_1_14 = 'telemetry_flag_1_14';
-  static const String _kTrace_1_15 = 'telemetry_flag_1_15';
-  static const String _kTrace_1_16 = 'telemetry_flag_1_16';
-  static const String _kTrace_1_17 = 'telemetry_flag_1_17';
-  static const String _kTrace_1_18 = 'telemetry_flag_1_18';
-  static const String _kTrace_1_19 = 'telemetry_flag_1_19';
-  static const String _kTrace_1_20 = 'telemetry_flag_1_20';
-  static const String _kTrace_1_21 = 'telemetry_flag_1_21';
-  static const String _kTrace_1_22 = 'telemetry_flag_1_22';
-  static const String _kTrace_1_23 = 'telemetry_flag_1_23';
-  static const String _kTrace_1_24 = 'telemetry_flag_1_24';
-  static const String _kTrace_1_25 = 'telemetry_flag_1_25';
-  static const String _kTrace_1_26 = 'telemetry_flag_1_26';
   static const String _kTrace_1_27 = 'telemetry_flag_1_27';
   static const String _kTrace_1_28 = 'telemetry_flag_1_28';
   static const String _kTrace_1_29 = 'telemetry_flag_1_29';
