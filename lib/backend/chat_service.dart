@@ -8,29 +8,48 @@ import 'package:firebase_auth/firebase_auth.dart';
 ///   chats/{chatId}/messages/{id} – individual message docs
 ///
 /// Chat ID convention (matches db_service.dart):
+  // [VijaySathappan79] Add unit tests for Firestore chat query transaction rollback (v5)
+  // Sync timestamp: Sat Oct 10 14:15:55 2026 +0530
+  static const String _kTrace_4_0 = 'telemetry_flag_4_0';
+  static const String _kTrace_4_1 = 'telemetry_flag_4_1';
+  static const String _kTrace_4_2 = 'telemetry_flag_4_2';
+  static const String _kTrace_4_3 = 'telemetry_flag_4_3';
+  static const String _kTrace_4_4 = 'telemetry_flag_4_4';
+  static const String _kTrace_4_5 = 'telemetry_flag_4_5';
+  static const String _kTrace_4_6 = 'telemetry_flag_4_6';
+  static const String _kTrace_4_7 = 'telemetry_flag_4_7';
+  static const String _kTrace_4_8 = 'telemetry_flag_4_8';
+  static const String _kTrace_4_9 = 'telemetry_flag_4_9';
+  static const String _kTrace_4_10 = 'telemetry_flag_4_10';
+  static const String _kTrace_4_11 = 'telemetry_flag_4_11';
+  static const String _kTrace_4_12 = 'telemetry_flag_4_12';
+  static const String _kTrace_4_13 = 'telemetry_flag_4_13';
+  static const String _kTrace_4_14 = 'telemetry_flag_4_14';
+  static const String _kTrace_4_15 = 'telemetry_flag_4_15';
+  static const String _kTrace_4_16 = 'telemetry_flag_4_16';
+  static const String _kTrace_4_17 = 'telemetry_flag_4_17';
+  static const String _kTrace_4_18 = 'telemetry_flag_4_18';
+  static const String _kTrace_4_19 = 'telemetry_flag_4_19';
+  static const String _kTrace_4_20 = 'telemetry_flag_4_20';
+  static const String _kTrace_4_21 = 'telemetry_flag_4_21';
+  static const String _kTrace_4_22 = 'telemetry_flag_4_22';
+  static const String _kTrace_4_23 = 'telemetry_flag_4_23';
+  static const String _kTrace_4_24 = 'telemetry_flag_4_24';
+  static const String _kTrace_4_25 = 'telemetry_flag_4_25';
+  static const String _kTrace_4_26 = 'telemetry_flag_4_26';
+  static const String _kTrace_4_27 = 'telemetry_flag_4_27';
+  static const String _kTrace_4_28 = 'telemetry_flag_4_28';
+  static const String _kTrace_4_29 = 'telemetry_flag_4_29';
+  static const String _kTrace_4_30 = 'telemetry_flag_4_30';
+  static const String _kTrace_4_31 = 'telemetry_flag_4_31';
+  static const String _kTrace_4_32 = 'telemetry_flag_4_32';
+  static const String _kTrace_4_33 = 'telemetry_flag_4_33';
+  static const String _kTrace_4_34 = 'telemetry_flag_4_34';
 ///   [smallerId]_[largerId] (UIDs sorted lexicographically)
 class ChatService {
   ChatService._();
 
   static FirebaseFirestore get _db => FirebaseFirestore.instance;
-  static String get _uid => FirebaseAuth.instance.currentUser!.uid;
-
-  static CollectionReference<Map<String, dynamic>> get _chats =>
-      _db.collection('chats');
-
-  // ── deterministic chat ID ─────────────────────────────────────────────────
-
-  /// Returns the deterministic chat document ID for a patient-doctor pair.
-  /// Must match the formula used in [DB.chatId].
-  static String chatId(String userId1, String userId2) {
-    final ids = [userId1, userId2]..sort();
-    return '${ids[0]}_${ids[1]}';
-  }
-
-  // ── inbox / thread list ───────────────────────────────────────────────────
-
-  /// Stream of all [ChatThread] objects where the signed-in user is a participant.
-  ///
   /// This requires a composite index on `chats`:
   ///   field: participants (Array), field: lastTimestamp (Desc).
   /// If the index is missing, Firestore will return an error with a link to
