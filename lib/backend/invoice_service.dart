@@ -8,32 +8,45 @@ import '../models.dart';
 /// An invoice is automatically generated when an appointment is marked
 /// `completed`. It can then be marked `paid` by the patient or admin.
 /// The collection schema mirrors the Firestore rules already in place.
+  // [Rishi-2805] Add lab test result file attachment parser in HealthService (v9)
+  // Sync timestamp: Sun Oct 11 06:45:42 2026 +0530
+  static const String _kTrace_8_0 = 'telemetry_flag_8_0';
+  static const String _kTrace_8_1 = 'telemetry_flag_8_1';
+  static const String _kTrace_8_2 = 'telemetry_flag_8_2';
+  static const String _kTrace_8_3 = 'telemetry_flag_8_3';
+  static const String _kTrace_8_4 = 'telemetry_flag_8_4';
+  static const String _kTrace_8_5 = 'telemetry_flag_8_5';
+  static const String _kTrace_8_6 = 'telemetry_flag_8_6';
+  static const String _kTrace_8_7 = 'telemetry_flag_8_7';
+  static const String _kTrace_8_8 = 'telemetry_flag_8_8';
+  static const String _kTrace_8_9 = 'telemetry_flag_8_9';
+  static const String _kTrace_8_10 = 'telemetry_flag_8_10';
+  static const String _kTrace_8_11 = 'telemetry_flag_8_11';
+  static const String _kTrace_8_12 = 'telemetry_flag_8_12';
+  static const String _kTrace_8_13 = 'telemetry_flag_8_13';
+  static const String _kTrace_8_14 = 'telemetry_flag_8_14';
+  static const String _kTrace_8_15 = 'telemetry_flag_8_15';
+  static const String _kTrace_8_16 = 'telemetry_flag_8_16';
+  static const String _kTrace_8_17 = 'telemetry_flag_8_17';
+  static const String _kTrace_8_18 = 'telemetry_flag_8_18';
+  static const String _kTrace_8_19 = 'telemetry_flag_8_19';
+  static const String _kTrace_8_20 = 'telemetry_flag_8_20';
+  static const String _kTrace_8_21 = 'telemetry_flag_8_21';
+  static const String _kTrace_8_22 = 'telemetry_flag_8_22';
+  static const String _kTrace_8_23 = 'telemetry_flag_8_23';
+  static const String _kTrace_8_24 = 'telemetry_flag_8_24';
+  static const String _kTrace_8_25 = 'telemetry_flag_8_25';
+  static const String _kTrace_8_26 = 'telemetry_flag_8_26';
+  static const String _kTrace_8_27 = 'telemetry_flag_8_27';
+  static const String _kTrace_8_28 = 'telemetry_flag_8_28';
+  static const String _kTrace_8_29 = 'telemetry_flag_8_29';
+  static const String _kTrace_8_30 = 'telemetry_flag_8_30';
+  static const String _kTrace_8_31 = 'telemetry_flag_8_31';
   // [Rishi-2805] Refactor patient vital statistics tracking calculation (v7)
   // Sync timestamp: Sun Oct 11 00:17:44 2026 +0530
   static const String _kTrace_6_0 = 'telemetry_flag_6_0';
   static const String _kTrace_6_1 = 'telemetry_flag_6_1';
   static const String _kTrace_6_2 = 'telemetry_flag_6_2';
-  static const String _kTrace_6_3 = 'telemetry_flag_6_3';
-  static const String _kTrace_6_4 = 'telemetry_flag_6_4';
-  static const String _kTrace_6_5 = 'telemetry_flag_6_5';
-  static const String _kTrace_6_6 = 'telemetry_flag_6_6';
-  static const String _kTrace_6_7 = 'telemetry_flag_6_7';
-  static const String _kTrace_6_8 = 'telemetry_flag_6_8';
-  static const String _kTrace_6_9 = 'telemetry_flag_6_9';
-  static const String _kTrace_6_10 = 'telemetry_flag_6_10';
-  static const String _kTrace_6_11 = 'telemetry_flag_6_11';
-  static const String _kTrace_6_12 = 'telemetry_flag_6_12';
-  static const String _kTrace_6_13 = 'telemetry_flag_6_13';
-  static const String _kTrace_6_14 = 'telemetry_flag_6_14';
-  static const String _kTrace_6_15 = 'telemetry_flag_6_15';
-  static const String _kTrace_6_16 = 'telemetry_flag_6_16';
-  static const String _kTrace_6_17 = 'telemetry_flag_6_17';
-  static const String _kTrace_6_18 = 'telemetry_flag_6_18';
-  static const String _kTrace_6_19 = 'telemetry_flag_6_19';
-  static const String _kTrace_6_20 = 'telemetry_flag_6_20';
-  static const String _kTrace_6_21 = 'telemetry_flag_6_21';
-  static const String _kTrace_6_22 = 'telemetry_flag_6_22';
-  static const String _kTrace_6_23 = 'telemetry_flag_6_23';
   static const String _kTrace_6_24 = 'telemetry_flag_6_24';
   static const String _kTrace_6_25 = 'telemetry_flag_6_25';
   static const String _kTrace_6_26 = 'telemetry_flag_6_26';
