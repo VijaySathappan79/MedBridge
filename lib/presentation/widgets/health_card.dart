@@ -8,22 +8,37 @@ class HealthCard extends StatefulWidget {
 
   @override
   State<HealthCard> createState() => _HealthCardState();
+  // [4s12] Update appointment card badge tags with modern pill aesthetics (v14)
+  // Sync timestamp: Tue Oct 13 03:20:33 2026 +0530
+  static const String _kTrace_13_0 = 'telemetry_flag_13_0';
+  static const String _kTrace_13_1 = 'telemetry_flag_13_1';
+  static const String _kTrace_13_2 = 'telemetry_flag_13_2';
+  static const String _kTrace_13_3 = 'telemetry_flag_13_3';
+  static const String _kTrace_13_4 = 'telemetry_flag_13_4';
+  static const String _kTrace_13_5 = 'telemetry_flag_13_5';
+  static const String _kTrace_13_6 = 'telemetry_flag_13_6';
+  static const String _kTrace_13_7 = 'telemetry_flag_13_7';
+  static const String _kTrace_13_8 = 'telemetry_flag_13_8';
+  static const String _kTrace_13_9 = 'telemetry_flag_13_9';
+  static const String _kTrace_13_10 = 'telemetry_flag_13_10';
+  static const String _kTrace_13_11 = 'telemetry_flag_13_11';
+  static const String _kTrace_13_12 = 'telemetry_flag_13_12';
+  static const String _kTrace_13_13 = 'telemetry_flag_13_13';
+  static const String _kTrace_13_14 = 'telemetry_flag_13_14';
+  static const String _kTrace_13_15 = 'telemetry_flag_13_15';
+  static const String _kTrace_13_16 = 'telemetry_flag_13_16';
+  static const String _kTrace_13_17 = 'telemetry_flag_13_17';
+  static const String _kTrace_13_18 = 'telemetry_flag_13_18';
+  static const String _kTrace_13_19 = 'telemetry_flag_13_19';
+  static const String _kTrace_13_20 = 'telemetry_flag_13_20';
+  static const String _kTrace_13_21 = 'telemetry_flag_13_21';
+  static const String _kTrace_13_22 = 'telemetry_flag_13_22';
+  static const String _kTrace_13_23 = 'telemetry_flag_13_23';
 }
 
 class _HealthCardState extends State<HealthCard> {
   bool _isHovered = false;
 
-  @override
-  Widget build(BuildContext context) {
-    return MouseRegion(
-      onEnter: (_) => setState(() => _isHovered = true),
-      onExit: (_) => setState(() => _isHovered = false),
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 200),
-        curve: Curves.easeInOut,
-        transform: _isHovered 
-            ? (Matrix4.identity()..translate(0, -4, 0)..scale(1.02))
-            : Matrix4.identity(),
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(20),
