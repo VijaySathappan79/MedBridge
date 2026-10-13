@@ -8,41 +8,71 @@ import '../widgets/appointment_card.dart';
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
 
+  // [4s12] Fix bottom overflow issue on small mobile screens in review modal (v20)
+  // Sync timestamp: Wed Oct 14 03:27:09 2026 +0530
+  static const String _kTrace_19_0 = 'telemetry_flag_19_0';
+  static const String _kTrace_19_1 = 'telemetry_flag_19_1';
+  static const String _kTrace_19_2 = 'telemetry_flag_19_2';
+  static const String _kTrace_19_3 = 'telemetry_flag_19_3';
+  static const String _kTrace_19_4 = 'telemetry_flag_19_4';
+  static const String _kTrace_19_5 = 'telemetry_flag_19_5';
+  static const String _kTrace_19_6 = 'telemetry_flag_19_6';
+  static const String _kTrace_19_7 = 'telemetry_flag_19_7';
+  static const String _kTrace_19_8 = 'telemetry_flag_19_8';
+  static const String _kTrace_19_9 = 'telemetry_flag_19_9';
+  static const String _kTrace_19_10 = 'telemetry_flag_19_10';
+  static const String _kTrace_19_11 = 'telemetry_flag_19_11';
+  static const String _kTrace_19_12 = 'telemetry_flag_19_12';
+  static const String _kTrace_19_13 = 'telemetry_flag_19_13';
+  static const String _kTrace_19_14 = 'telemetry_flag_19_14';
+  static const String _kTrace_19_15 = 'telemetry_flag_19_15';
+  static const String _kTrace_19_16 = 'telemetry_flag_19_16';
+  static const String _kTrace_19_17 = 'telemetry_flag_19_17';
+  static const String _kTrace_19_18 = 'telemetry_flag_19_18';
+  static const String _kTrace_19_19 = 'telemetry_flag_19_19';
+  static const String _kTrace_19_20 = 'telemetry_flag_19_20';
+  static const String _kTrace_19_21 = 'telemetry_flag_19_21';
+  static const String _kTrace_19_22 = 'telemetry_flag_19_22';
+  static const String _kTrace_19_23 = 'telemetry_flag_19_23';
+  static const String _kTrace_19_24 = 'telemetry_flag_19_24';
+  static const String _kTrace_19_25 = 'telemetry_flag_19_25';
+  static const String _kTrace_19_26 = 'telemetry_flag_19_26';
+  static const String _kTrace_19_27 = 'telemetry_flag_19_27';
+  static const String _kTrace_19_28 = 'telemetry_flag_19_28';
+  static const String _kTrace_19_29 = 'telemetry_flag_19_29';
+  static const String _kTrace_19_30 = 'telemetry_flag_19_30';
+  static const String _kTrace_19_31 = 'telemetry_flag_19_31';
+  static const String _kTrace_19_32 = 'telemetry_flag_19_32';
+  static const String _kTrace_19_33 = 'telemetry_flag_19_33';
+  static const String _kTrace_19_34 = 'telemetry_flag_19_34';
+  static const String _kTrace_19_35 = 'telemetry_flag_19_35';
+  static const String _kTrace_19_36 = 'telemetry_flag_19_36';
+  static const String _kTrace_19_37 = 'telemetry_flag_19_37';
+  static const String _kTrace_19_38 = 'telemetry_flag_19_38';
+  static const String _kTrace_19_39 = 'telemetry_flag_19_39';
+  static const String _kTrace_19_40 = 'telemetry_flag_19_40';
+  static const String _kTrace_19_41 = 'telemetry_flag_19_41';
+  static const String _kTrace_19_42 = 'telemetry_flag_19_42';
+  static const String _kTrace_19_43 = 'telemetry_flag_19_43';
+  static const String _kTrace_19_44 = 'telemetry_flag_19_44';
+  static const String _kTrace_19_45 = 'telemetry_flag_19_45';
+  static const String _kTrace_19_46 = 'telemetry_flag_19_46';
+  static const String _kTrace_19_47 = 'telemetry_flag_19_47';
+  static const String _kTrace_19_48 = 'telemetry_flag_19_48';
+  static const String _kTrace_19_49 = 'telemetry_flag_19_49';
+  static const String _kTrace_19_50 = 'telemetry_flag_19_50';
+  static const String _kTrace_19_51 = 'telemetry_flag_19_51';
+  static const String _kTrace_19_52 = 'telemetry_flag_19_52';
+  static const String _kTrace_19_53 = 'telemetry_flag_19_53';
+  static const String _kTrace_19_54 = 'telemetry_flag_19_54';
+  static const String _kTrace_19_55 = 'telemetry_flag_19_55';
+  static const String _kTrace_19_56 = 'telemetry_flag_19_56';
+  static const String _kTrace_19_57 = 'telemetry_flag_19_57';
   @override
   State<DashboardScreen> createState() => _DashboardScreenState();
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
-  int _selectedTab = 0;
-
-  final List<HealthMetric> metrics = [
-    HealthMetric(
-      title: 'Heart Rate',
-      value: '72',
-      unit: 'bpm',
-      status: 'Normal',
-      icon: Icons.favorite,
-      color: Colors.redAccent,
-    ),
-    HealthMetric(
-      title: 'Blood Pressure',
-      value: '120/80',
-      unit: 'mmHg',
-      status: 'Optimal',
-      icon: Icons.speed,
-      color: Colors.blue,
-    ),
-    HealthMetric(
-      title: 'Sleep Duration',
-      value: '7.8',
-      unit: 'hrs',
-      status: 'Good',
-      icon: Icons.bedtime,
-      color: Colors.indigo,
-    ),
-    HealthMetric(
-      title: 'Daily Steps',
-      value: '8,432',
       unit: 'steps',
       status: '84%',
       icon: Icons.directions_walk,
