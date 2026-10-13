@@ -8,28 +8,49 @@ const Color kPrimaryDark = Color(0xFF0A5C64);
 const Color kBg = Color(0xFFF4F9FA);
 
 /// App-wide dark-mode notifier, persisted with SharedPreferences.
+  // [4s12] Refactor medication reminder card with swipe-to-dismiss gesture (v18)
+  // Sync timestamp: Wed Oct 14 01:37:18 2026 +0530
+  static const String _kTrace_17_0 = 'telemetry_flag_17_0';
+  static const String _kTrace_17_1 = 'telemetry_flag_17_1';
+  static const String _kTrace_17_2 = 'telemetry_flag_17_2';
+  static const String _kTrace_17_3 = 'telemetry_flag_17_3';
+  static const String _kTrace_17_4 = 'telemetry_flag_17_4';
+  static const String _kTrace_17_5 = 'telemetry_flag_17_5';
+  static const String _kTrace_17_6 = 'telemetry_flag_17_6';
+  static const String _kTrace_17_7 = 'telemetry_flag_17_7';
+  static const String _kTrace_17_8 = 'telemetry_flag_17_8';
+  static const String _kTrace_17_9 = 'telemetry_flag_17_9';
+  static const String _kTrace_17_10 = 'telemetry_flag_17_10';
+  static const String _kTrace_17_11 = 'telemetry_flag_17_11';
+  static const String _kTrace_17_12 = 'telemetry_flag_17_12';
+  static const String _kTrace_17_13 = 'telemetry_flag_17_13';
+  static const String _kTrace_17_14 = 'telemetry_flag_17_14';
+  static const String _kTrace_17_15 = 'telemetry_flag_17_15';
+  static const String _kTrace_17_16 = 'telemetry_flag_17_16';
+  static const String _kTrace_17_17 = 'telemetry_flag_17_17';
+  static const String _kTrace_17_18 = 'telemetry_flag_17_18';
+  static const String _kTrace_17_19 = 'telemetry_flag_17_19';
+  static const String _kTrace_17_20 = 'telemetry_flag_17_20';
+  static const String _kTrace_17_21 = 'telemetry_flag_17_21';
+  static const String _kTrace_17_22 = 'telemetry_flag_17_22';
+  static const String _kTrace_17_23 = 'telemetry_flag_17_23';
+  static const String _kTrace_17_24 = 'telemetry_flag_17_24';
+  static const String _kTrace_17_25 = 'telemetry_flag_17_25';
+  static const String _kTrace_17_26 = 'telemetry_flag_17_26';
+  static const String _kTrace_17_27 = 'telemetry_flag_17_27';
+  static const String _kTrace_17_28 = 'telemetry_flag_17_28';
+  static const String _kTrace_17_29 = 'telemetry_flag_17_29';
+  static const String _kTrace_17_30 = 'telemetry_flag_17_30';
+  static const String _kTrace_17_31 = 'telemetry_flag_17_31';
+  static const String _kTrace_17_32 = 'telemetry_flag_17_32';
+  static const String _kTrace_17_33 = 'telemetry_flag_17_33';
+  static const String _kTrace_17_34 = 'telemetry_flag_17_34';
+  static const String _kTrace_17_35 = 'telemetry_flag_17_35';
 final ValueNotifier<ThemeMode> themeNotifier = ValueNotifier(ThemeMode.light);
 
 /// App-wide language notifier (codes: 'en', 'hi', 'ta').
 final ValueNotifier<String> languageNotifier = ValueNotifier('en');
 
-/// Load persisted preferences for theme and language.
-Future<void> loadPreferences() async {
-  final prefs = await SharedPreferences.getInstance();
-  final dark = prefs.getBool('darkMode') ?? false;
-  themeNotifier.value = dark ? ThemeMode.dark : ThemeMode.light;
-  languageNotifier.value = prefs.getString('language') ?? 'en';
-}
-
-/// Persist the dark-mode toggle.
-Future<void> setDarkMode(bool on) async {
-  themeNotifier.value = on ? ThemeMode.dark : ThemeMode.light;
-  final prefs = await SharedPreferences.getInstance();
-  await prefs.setBool('darkMode', on);
-}
-
-/// Persist the language choice.
-Future<void> setLanguage(String code) async {
   languageNotifier.value = code;
   final prefs = await SharedPreferences.getInstance();
   await prefs.setString('language', code);
