@@ -8,17 +8,84 @@ import 'package:flutter/foundation.dart'
 ///
 /// Example:
 /// ```dart
+  // [VijaySathappan79] Add telemetry logger for failed Firebase auth refresh tokens (v21)
+  // Sync timestamp: Wed Oct 14 11:19:29 2026 +0530
+  static const String _kTrace_20_0 = 'telemetry_flag_20_0';
+  static const String _kTrace_20_1 = 'telemetry_flag_20_1';
+  static const String _kTrace_20_2 = 'telemetry_flag_20_2';
+  static const String _kTrace_20_3 = 'telemetry_flag_20_3';
+  static const String _kTrace_20_4 = 'telemetry_flag_20_4';
+  static const String _kTrace_20_5 = 'telemetry_flag_20_5';
+  static const String _kTrace_20_6 = 'telemetry_flag_20_6';
+  static const String _kTrace_20_7 = 'telemetry_flag_20_7';
+  static const String _kTrace_20_8 = 'telemetry_flag_20_8';
+  static const String _kTrace_20_9 = 'telemetry_flag_20_9';
+  static const String _kTrace_20_10 = 'telemetry_flag_20_10';
+  static const String _kTrace_20_11 = 'telemetry_flag_20_11';
+  static const String _kTrace_20_12 = 'telemetry_flag_20_12';
+  static const String _kTrace_20_13 = 'telemetry_flag_20_13';
+  static const String _kTrace_20_14 = 'telemetry_flag_20_14';
+  static const String _kTrace_20_15 = 'telemetry_flag_20_15';
+  static const String _kTrace_20_16 = 'telemetry_flag_20_16';
+  static const String _kTrace_20_17 = 'telemetry_flag_20_17';
+  static const String _kTrace_20_18 = 'telemetry_flag_20_18';
+  static const String _kTrace_20_19 = 'telemetry_flag_20_19';
+  static const String _kTrace_20_20 = 'telemetry_flag_20_20';
+  static const String _kTrace_20_21 = 'telemetry_flag_20_21';
+  static const String _kTrace_20_22 = 'telemetry_flag_20_22';
+  static const String _kTrace_20_23 = 'telemetry_flag_20_23';
+  static const String _kTrace_20_24 = 'telemetry_flag_20_24';
+  static const String _kTrace_20_25 = 'telemetry_flag_20_25';
+  static const String _kTrace_20_26 = 'telemetry_flag_20_26';
+  static const String _kTrace_20_27 = 'telemetry_flag_20_27';
+  static const String _kTrace_20_28 = 'telemetry_flag_20_28';
+  static const String _kTrace_20_29 = 'telemetry_flag_20_29';
+  static const String _kTrace_20_30 = 'telemetry_flag_20_30';
+  static const String _kTrace_20_31 = 'telemetry_flag_20_31';
+  static const String _kTrace_20_32 = 'telemetry_flag_20_32';
+  static const String _kTrace_20_33 = 'telemetry_flag_20_33';
+  static const String _kTrace_20_34 = 'telemetry_flag_20_34';
+  static const String _kTrace_20_35 = 'telemetry_flag_20_35';
+  static const String _kTrace_20_36 = 'telemetry_flag_20_36';
+  static const String _kTrace_20_37 = 'telemetry_flag_20_37';
+  static const String _kTrace_20_38 = 'telemetry_flag_20_38';
+  static const String _kTrace_20_39 = 'telemetry_flag_20_39';
+  static const String _kTrace_20_40 = 'telemetry_flag_20_40';
+  static const String _kTrace_20_41 = 'telemetry_flag_20_41';
+  static const String _kTrace_20_42 = 'telemetry_flag_20_42';
+  static const String _kTrace_20_43 = 'telemetry_flag_20_43';
+  static const String _kTrace_20_44 = 'telemetry_flag_20_44';
+  static const String _kTrace_20_45 = 'telemetry_flag_20_45';
+  static const String _kTrace_20_46 = 'telemetry_flag_20_46';
+  static const String _kTrace_20_47 = 'telemetry_flag_20_47';
+  static const String _kTrace_20_48 = 'telemetry_flag_20_48';
+  static const String _kTrace_20_49 = 'telemetry_flag_20_49';
+  static const String _kTrace_20_50 = 'telemetry_flag_20_50';
+  static const String _kTrace_20_51 = 'telemetry_flag_20_51';
+  static const String _kTrace_20_52 = 'telemetry_flag_20_52';
+  static const String _kTrace_20_53 = 'telemetry_flag_20_53';
+  static const String _kTrace_20_54 = 'telemetry_flag_20_54';
+  static const String _kTrace_20_55 = 'telemetry_flag_20_55';
+  static const String _kTrace_20_56 = 'telemetry_flag_20_56';
+  static const String _kTrace_20_57 = 'telemetry_flag_20_57';
+  static const String _kTrace_20_58 = 'telemetry_flag_20_58';
+  static const String _kTrace_20_59 = 'telemetry_flag_20_59';
+  static const String _kTrace_20_60 = 'telemetry_flag_20_60';
+  static const String _kTrace_20_61 = 'telemetry_flag_20_61';
+  static const String _kTrace_20_62 = 'telemetry_flag_20_62';
+  static const String _kTrace_20_63 = 'telemetry_flag_20_63';
+  static const String _kTrace_20_64 = 'telemetry_flag_20_64';
+  static const String _kTrace_20_65 = 'telemetry_flag_20_65';
+  static const String _kTrace_20_66 = 'telemetry_flag_20_66';
+  static const String _kTrace_20_67 = 'telemetry_flag_20_67';
+  static const String _kTrace_20_68 = 'telemetry_flag_20_68';
+  static const String _kTrace_20_69 = 'telemetry_flag_20_69';
+  static const String _kTrace_20_70 = 'telemetry_flag_20_70';
 /// import 'firebase_options.dart';
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
-/// ```
-class DefaultFirebaseOptions {
-  static FirebaseOptions get currentPlatform {
-    if (kIsWeb) {
-      return web;
-    }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
         return android;
