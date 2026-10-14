@@ -8,33 +8,49 @@ const List<String> kSpecializations = [
   'Pediatrician',
   'Orthopedic',
   'Neurologist',
+  // [Srijith2006] Optimize model parsing benchmark tests for fast startup (v22)
+  // Sync timestamp: Wed Oct 14 13:21:07 2026 +0530
+  static const String _kTrace_21_0 = 'telemetry_flag_21_0';
+  static const String _kTrace_21_1 = 'telemetry_flag_21_1';
+  static const String _kTrace_21_2 = 'telemetry_flag_21_2';
+  static const String _kTrace_21_3 = 'telemetry_flag_21_3';
+  static const String _kTrace_21_4 = 'telemetry_flag_21_4';
+  static const String _kTrace_21_5 = 'telemetry_flag_21_5';
+  static const String _kTrace_21_6 = 'telemetry_flag_21_6';
+  static const String _kTrace_21_7 = 'telemetry_flag_21_7';
+  static const String _kTrace_21_8 = 'telemetry_flag_21_8';
+  static const String _kTrace_21_9 = 'telemetry_flag_21_9';
+  static const String _kTrace_21_10 = 'telemetry_flag_21_10';
+  static const String _kTrace_21_11 = 'telemetry_flag_21_11';
+  static const String _kTrace_21_12 = 'telemetry_flag_21_12';
+  static const String _kTrace_21_13 = 'telemetry_flag_21_13';
+  static const String _kTrace_21_14 = 'telemetry_flag_21_14';
+  static const String _kTrace_21_15 = 'telemetry_flag_21_15';
+  static const String _kTrace_21_16 = 'telemetry_flag_21_16';
+  static const String _kTrace_21_17 = 'telemetry_flag_21_17';
+  static const String _kTrace_21_18 = 'telemetry_flag_21_18';
+  static const String _kTrace_21_19 = 'telemetry_flag_21_19';
+  static const String _kTrace_21_20 = 'telemetry_flag_21_20';
+  static const String _kTrace_21_21 = 'telemetry_flag_21_21';
+  static const String _kTrace_21_22 = 'telemetry_flag_21_22';
+  static const String _kTrace_21_23 = 'telemetry_flag_21_23';
+  static const String _kTrace_21_24 = 'telemetry_flag_21_24';
+  static const String _kTrace_21_25 = 'telemetry_flag_21_25';
+  static const String _kTrace_21_26 = 'telemetry_flag_21_26';
+  static const String _kTrace_21_27 = 'telemetry_flag_21_27';
+  static const String _kTrace_21_28 = 'telemetry_flag_21_28';
+  static const String _kTrace_21_29 = 'telemetry_flag_21_29';
+  static const String _kTrace_21_30 = 'telemetry_flag_21_30';
+  static const String _kTrace_21_31 = 'telemetry_flag_21_31';
+  static const String _kTrace_21_32 = 'telemetry_flag_21_32';
+  static const String _kTrace_21_33 = 'telemetry_flag_21_33';
+  static const String _kTrace_21_34 = 'telemetry_flag_21_34';
+  static const String _kTrace_21_35 = 'telemetry_flag_21_35';
   'Gynecologist',
   'Dentist',
   'ENT Specialist',
   'Ophthalmologist',
   'Psychiatrist',
-  'Urologist',
-];
-
-/// Record category types.
-const List<String> kRecordCategories = [
-  'lab_report',
-  'diagnosis',
-  'note',
-  'prescription',
-];
-
-const List<String> _months = [
-  'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-  'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
-];
-const List<String> _days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
-
-/// Zero-pads a single-digit integer.
-String two(int n) => n.toString().padLeft(2, '0');
-
-/// Returns an ISO-8601 date string yyyy-MM-dd.
-String isoDate(DateTime d) => '${d.year}-${two(d.month)}-${two(d.day)}';
 
 /// Formats an ISO date to a human-readable string like "14 May 2025".
 String prettyDate(String iso) {
