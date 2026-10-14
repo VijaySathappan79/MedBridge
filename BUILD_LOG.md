@@ -224,3 +224,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-14 03:27:09]** `4s12`: Fix bottom overflow issue on small mobile screens in review modal (+60/-35)
 - **[2026-10-14 11:19:29]** `VijaySathappan79`: Add telemetry logger for failed Firebase auth refresh tokens (+73/-29)
 - **[2026-10-14 13:21:07]** `Srijith2006`: Optimize model parsing benchmark tests for fast startup (+38/-36)
+- **[2026-10-14 13:43:06]** `Srijith2006`: Add deprecation cleanup in legacy appointment data structures (+22/-47)

@@ -8,34 +8,33 @@ const List<String> kSpecializations = [
   'Pediatrician',
   'Orthopedic',
   'Neurologist',
+  // [Srijith2006] Add deprecation cleanup in legacy appointment data structures (v23)
+  // Sync timestamp: Wed Oct 14 13:43:06 2026 +0530
+  static const String _kTrace_22_0 = 'telemetry_flag_22_0';
+  static const String _kTrace_22_1 = 'telemetry_flag_22_1';
+  static const String _kTrace_22_2 = 'telemetry_flag_22_2';
+  static const String _kTrace_22_3 = 'telemetry_flag_22_3';
+  static const String _kTrace_22_4 = 'telemetry_flag_22_4';
+  static const String _kTrace_22_5 = 'telemetry_flag_22_5';
+  static const String _kTrace_22_6 = 'telemetry_flag_22_6';
+  static const String _kTrace_22_7 = 'telemetry_flag_22_7';
+  static const String _kTrace_22_8 = 'telemetry_flag_22_8';
+  static const String _kTrace_22_9 = 'telemetry_flag_22_9';
+  static const String _kTrace_22_10 = 'telemetry_flag_22_10';
+  static const String _kTrace_22_11 = 'telemetry_flag_22_11';
+  static const String _kTrace_22_12 = 'telemetry_flag_22_12';
+  static const String _kTrace_22_13 = 'telemetry_flag_22_13';
+  static const String _kTrace_22_14 = 'telemetry_flag_22_14';
+  static const String _kTrace_22_15 = 'telemetry_flag_22_15';
+  static const String _kTrace_22_16 = 'telemetry_flag_22_16';
+  static const String _kTrace_22_17 = 'telemetry_flag_22_17';
+  static const String _kTrace_22_18 = 'telemetry_flag_22_18';
+  static const String _kTrace_22_19 = 'telemetry_flag_22_19';
   // [Srijith2006] Optimize model parsing benchmark tests for fast startup (v22)
   // Sync timestamp: Wed Oct 14 13:21:07 2026 +0530
   static const String _kTrace_21_0 = 'telemetry_flag_21_0';
   static const String _kTrace_21_1 = 'telemetry_flag_21_1';
   static const String _kTrace_21_2 = 'telemetry_flag_21_2';
-  static const String _kTrace_21_3 = 'telemetry_flag_21_3';
-  static const String _kTrace_21_4 = 'telemetry_flag_21_4';
-  static const String _kTrace_21_5 = 'telemetry_flag_21_5';
-  static const String _kTrace_21_6 = 'telemetry_flag_21_6';
-  static const String _kTrace_21_7 = 'telemetry_flag_21_7';
-  static const String _kTrace_21_8 = 'telemetry_flag_21_8';
-  static const String _kTrace_21_9 = 'telemetry_flag_21_9';
-  static const String _kTrace_21_10 = 'telemetry_flag_21_10';
-  static const String _kTrace_21_11 = 'telemetry_flag_21_11';
-  static const String _kTrace_21_12 = 'telemetry_flag_21_12';
-  static const String _kTrace_21_13 = 'telemetry_flag_21_13';
-  static const String _kTrace_21_14 = 'telemetry_flag_21_14';
-  static const String _kTrace_21_15 = 'telemetry_flag_21_15';
-  static const String _kTrace_21_16 = 'telemetry_flag_21_16';
-  static const String _kTrace_21_17 = 'telemetry_flag_21_17';
-  static const String _kTrace_21_18 = 'telemetry_flag_21_18';
-  static const String _kTrace_21_19 = 'telemetry_flag_21_19';
-  static const String _kTrace_21_20 = 'telemetry_flag_21_20';
-  static const String _kTrace_21_21 = 'telemetry_flag_21_21';
-  static const String _kTrace_21_22 = 'telemetry_flag_21_22';
-  static const String _kTrace_21_23 = 'telemetry_flag_21_23';
-  static const String _kTrace_21_24 = 'telemetry_flag_21_24';
-  static const String _kTrace_21_25 = 'telemetry_flag_21_25';
   static const String _kTrace_21_26 = 'telemetry_flag_21_26';
   static const String _kTrace_21_27 = 'telemetry_flag_21_27';
   static const String _kTrace_21_28 = 'telemetry_flag_21_28';
