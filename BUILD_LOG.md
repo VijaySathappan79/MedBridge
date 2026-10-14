@@ -82,3 +82,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-14 16:45:48]** `Srijith2006`: Add badge indicator for doctor online status in avatar widget
 - **[2026-10-14 16:56:06]** `4s12`: Improve prescription download button state with progress indicator
 - **[2026-10-14 17:17:09]** `Srijith2006`: Update custom bottom sheet styling for medication reminders
+- **[2026-10-14 17:24:57]** `Rishi-2805`: Add doctor consultation pricing badge with currency formatting
