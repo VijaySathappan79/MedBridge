@@ -98,3 +98,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-15 07:39:35]** `Rishi-2805`: Update doctor bio section with expandable text description
 - **[2026-10-15 08:40:15]** `Rishi-2805`: Implement doctor schedule calendar view with date picker modal
 - **[2026-10-15 09:24:55]** `Rishi-2805`: Add animated success checkmark dialog upon appointment booking
+- **[2026-10-15 11:27:33]** `4s12`: Refactor profile photo picker with crop and preview support
