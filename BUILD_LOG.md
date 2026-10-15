@@ -230,3 +230,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-14 19:08:50]** `Srijith2006`: Implement secure token storage wrapper with refresh timer (+22/-23)
 - **[2026-10-14 23:28:14]** `4s12`: Add smooth hero animation curve on appointment card tap (+62/-36)
 - **[2026-10-15 05:07:22]** `Srijith2006`: Refactor ConsultationReview model with null-safety optimizations (+38/-48)
+- **[2026-10-15 14:41:21]** `Rishi-2805`: Add medical insurance deduction calculator in InvoiceService (+48/-18)
