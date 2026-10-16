@@ -116,3 +116,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-16 09:34:50]** `VijaySathappan79`: Implement doctor payout calculation and settlement tracking
 - **[2026-10-16 11:47:19]** `4s12`: Add medical certificate generator service in HealthService
 - **[2026-10-16 11:58:34]** `Rishi-2805`: Implement prescription renewal request workflow in HealthService
+- **[2026-10-16 14:51:24]** `4s12`: Add patient allergies and chronic conditions registry in HealthService
