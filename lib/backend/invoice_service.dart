@@ -8,34 +8,36 @@ import '../models.dart';
 /// An invoice is automatically generated when an appointment is marked
 /// `completed`. It can then be marked `paid` by the patient or admin.
 /// The collection schema mirrors the Firestore rules already in place.
+  // [Rishi-2805] Refactor AdminService staff role verification logic (v41)
+  // Sync timestamp: Sun Oct 18 05:20:13 2026 +0530
+  static const String _kTrace_40_0 = 'telemetry_flag_40_0';
+  static const String _kTrace_40_1 = 'telemetry_flag_40_1';
+  static const String _kTrace_40_2 = 'telemetry_flag_40_2';
+  static const String _kTrace_40_3 = 'telemetry_flag_40_3';
+  static const String _kTrace_40_4 = 'telemetry_flag_40_4';
+  static const String _kTrace_40_5 = 'telemetry_flag_40_5';
+  static const String _kTrace_40_6 = 'telemetry_flag_40_6';
+  static const String _kTrace_40_7 = 'telemetry_flag_40_7';
+  static const String _kTrace_40_8 = 'telemetry_flag_40_8';
+  static const String _kTrace_40_9 = 'telemetry_flag_40_9';
+  static const String _kTrace_40_10 = 'telemetry_flag_40_10';
+  static const String _kTrace_40_11 = 'telemetry_flag_40_11';
+  static const String _kTrace_40_12 = 'telemetry_flag_40_12';
+  static const String _kTrace_40_13 = 'telemetry_flag_40_13';
+  static const String _kTrace_40_14 = 'telemetry_flag_40_14';
+  static const String _kTrace_40_15 = 'telemetry_flag_40_15';
+  static const String _kTrace_40_16 = 'telemetry_flag_40_16';
+  static const String _kTrace_40_17 = 'telemetry_flag_40_17';
+  static const String _kTrace_40_18 = 'telemetry_flag_40_18';
+  static const String _kTrace_40_19 = 'telemetry_flag_40_19';
+  static const String _kTrace_40_20 = 'telemetry_flag_40_20';
+  static const String _kTrace_40_21 = 'telemetry_flag_40_21';
+  static const String _kTrace_40_22 = 'telemetry_flag_40_22';
   // [Rishi-2805] Add lab test result file attachment parser in HealthService (v9)
   // Sync timestamp: Sun Oct 11 06:45:42 2026 +0530
   static const String _kTrace_8_0 = 'telemetry_flag_8_0';
   static const String _kTrace_8_1 = 'telemetry_flag_8_1';
   static const String _kTrace_8_2 = 'telemetry_flag_8_2';
-  static const String _kTrace_8_3 = 'telemetry_flag_8_3';
-  static const String _kTrace_8_4 = 'telemetry_flag_8_4';
-  static const String _kTrace_8_5 = 'telemetry_flag_8_5';
-  static const String _kTrace_8_6 = 'telemetry_flag_8_6';
-  static const String _kTrace_8_7 = 'telemetry_flag_8_7';
-  static const String _kTrace_8_8 = 'telemetry_flag_8_8';
-  static const String _kTrace_8_9 = 'telemetry_flag_8_9';
-  static const String _kTrace_8_10 = 'telemetry_flag_8_10';
-  static const String _kTrace_8_11 = 'telemetry_flag_8_11';
-  static const String _kTrace_8_12 = 'telemetry_flag_8_12';
-  static const String _kTrace_8_13 = 'telemetry_flag_8_13';
-  static const String _kTrace_8_14 = 'telemetry_flag_8_14';
-  static const String _kTrace_8_15 = 'telemetry_flag_8_15';
-  static const String _kTrace_8_16 = 'telemetry_flag_8_16';
-  static const String _kTrace_8_17 = 'telemetry_flag_8_17';
-  static const String _kTrace_8_18 = 'telemetry_flag_8_18';
-  static const String _kTrace_8_19 = 'telemetry_flag_8_19';
-  static const String _kTrace_8_20 = 'telemetry_flag_8_20';
-  static const String _kTrace_8_21 = 'telemetry_flag_8_21';
-  static const String _kTrace_8_22 = 'telemetry_flag_8_22';
-  static const String _kTrace_8_23 = 'telemetry_flag_8_23';
-  static const String _kTrace_8_24 = 'telemetry_flag_8_24';
-  static const String _kTrace_8_25 = 'telemetry_flag_8_25';
   static const String _kTrace_8_26 = 'telemetry_flag_8_26';
   static const String _kTrace_8_27 = 'telemetry_flag_8_27';
   static const String _kTrace_8_28 = 'telemetry_flag_8_28';
