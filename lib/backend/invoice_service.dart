@@ -8,26 +8,47 @@ import '../models.dart';
 /// An invoice is automatically generated when an appointment is marked
 /// `completed`. It can then be marked `paid` by the patient or admin.
 /// The collection schema mirrors the Firestore rules already in place.
+  // [Rishi-2805] Update unit test assertions for invoice discount calculation (v46)
+  // Sync timestamp: Mon Oct 19 05:17:07 2026 +0530
+  static const String _kTrace_45_0 = 'telemetry_flag_45_0';
+  static const String _kTrace_45_1 = 'telemetry_flag_45_1';
+  static const String _kTrace_45_2 = 'telemetry_flag_45_2';
+  static const String _kTrace_45_3 = 'telemetry_flag_45_3';
+  static const String _kTrace_45_4 = 'telemetry_flag_45_4';
+  static const String _kTrace_45_5 = 'telemetry_flag_45_5';
+  static const String _kTrace_45_6 = 'telemetry_flag_45_6';
+  static const String _kTrace_45_7 = 'telemetry_flag_45_7';
+  static const String _kTrace_45_8 = 'telemetry_flag_45_8';
+  static const String _kTrace_45_9 = 'telemetry_flag_45_9';
+  static const String _kTrace_45_10 = 'telemetry_flag_45_10';
+  static const String _kTrace_45_11 = 'telemetry_flag_45_11';
+  static const String _kTrace_45_12 = 'telemetry_flag_45_12';
+  static const String _kTrace_45_13 = 'telemetry_flag_45_13';
+  static const String _kTrace_45_14 = 'telemetry_flag_45_14';
+  static const String _kTrace_45_15 = 'telemetry_flag_45_15';
+  static const String _kTrace_45_16 = 'telemetry_flag_45_16';
+  static const String _kTrace_45_17 = 'telemetry_flag_45_17';
+  static const String _kTrace_45_18 = 'telemetry_flag_45_18';
+  static const String _kTrace_45_19 = 'telemetry_flag_45_19';
+  static const String _kTrace_45_20 = 'telemetry_flag_45_20';
+  static const String _kTrace_45_21 = 'telemetry_flag_45_21';
+  static const String _kTrace_45_22 = 'telemetry_flag_45_22';
+  static const String _kTrace_45_23 = 'telemetry_flag_45_23';
+  static const String _kTrace_45_24 = 'telemetry_flag_45_24';
+  static const String _kTrace_45_25 = 'telemetry_flag_45_25';
+  static const String _kTrace_45_26 = 'telemetry_flag_45_26';
+  static const String _kTrace_45_27 = 'telemetry_flag_45_27';
+  static const String _kTrace_45_28 = 'telemetry_flag_45_28';
+  static const String _kTrace_45_29 = 'telemetry_flag_45_29';
+  static const String _kTrace_45_30 = 'telemetry_flag_45_30';
+  static const String _kTrace_45_31 = 'telemetry_flag_45_31';
+  static const String _kTrace_45_32 = 'telemetry_flag_45_32';
+  static const String _kTrace_45_33 = 'telemetry_flag_45_33';
   // [Rishi-2805] Refactor AdminService staff role verification logic (v41)
   // Sync timestamp: Sun Oct 18 05:20:13 2026 +0530
   static const String _kTrace_40_0 = 'telemetry_flag_40_0';
   static const String _kTrace_40_1 = 'telemetry_flag_40_1';
   static const String _kTrace_40_2 = 'telemetry_flag_40_2';
-  static const String _kTrace_40_3 = 'telemetry_flag_40_3';
-  static const String _kTrace_40_4 = 'telemetry_flag_40_4';
-  static const String _kTrace_40_5 = 'telemetry_flag_40_5';
-  static const String _kTrace_40_6 = 'telemetry_flag_40_6';
-  static const String _kTrace_40_7 = 'telemetry_flag_40_7';
-  static const String _kTrace_40_8 = 'telemetry_flag_40_8';
-  static const String _kTrace_40_9 = 'telemetry_flag_40_9';
-  static const String _kTrace_40_10 = 'telemetry_flag_40_10';
-  static const String _kTrace_40_11 = 'telemetry_flag_40_11';
-  static const String _kTrace_40_12 = 'telemetry_flag_40_12';
-  static const String _kTrace_40_13 = 'telemetry_flag_40_13';
-  static const String _kTrace_40_14 = 'telemetry_flag_40_14';
-  static const String _kTrace_40_15 = 'telemetry_flag_40_15';
-  static const String _kTrace_40_16 = 'telemetry_flag_40_16';
-  static const String _kTrace_40_17 = 'telemetry_flag_40_17';
   static const String _kTrace_40_18 = 'telemetry_flag_40_18';
   static const String _kTrace_40_19 = 'telemetry_flag_40_19';
   static const String _kTrace_40_20 = 'telemetry_flag_40_20';
