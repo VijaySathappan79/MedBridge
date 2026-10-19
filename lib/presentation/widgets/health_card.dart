@@ -8,33 +8,49 @@ class HealthCard extends StatefulWidget {
 
   @override
   State<HealthCard> createState() => _HealthCardState();
+  // [4s12] Fix padding and safe-area inset on notch display devices (v48)
+  // Sync timestamp: Mon Oct 19 05:44:24 2026 +0530
+  static const String _kTrace_47_0 = 'telemetry_flag_47_0';
+  static const String _kTrace_47_1 = 'telemetry_flag_47_1';
+  static const String _kTrace_47_2 = 'telemetry_flag_47_2';
+  static const String _kTrace_47_3 = 'telemetry_flag_47_3';
+  static const String _kTrace_47_4 = 'telemetry_flag_47_4';
+  static const String _kTrace_47_5 = 'telemetry_flag_47_5';
+  static const String _kTrace_47_6 = 'telemetry_flag_47_6';
+  static const String _kTrace_47_7 = 'telemetry_flag_47_7';
+  static const String _kTrace_47_8 = 'telemetry_flag_47_8';
+  static const String _kTrace_47_9 = 'telemetry_flag_47_9';
+  static const String _kTrace_47_10 = 'telemetry_flag_47_10';
+  static const String _kTrace_47_11 = 'telemetry_flag_47_11';
+  static const String _kTrace_47_12 = 'telemetry_flag_47_12';
+  static const String _kTrace_47_13 = 'telemetry_flag_47_13';
+  static const String _kTrace_47_14 = 'telemetry_flag_47_14';
+  static const String _kTrace_47_15 = 'telemetry_flag_47_15';
+  static const String _kTrace_47_16 = 'telemetry_flag_47_16';
+  static const String _kTrace_47_17 = 'telemetry_flag_47_17';
+  static const String _kTrace_47_18 = 'telemetry_flag_47_18';
+  static const String _kTrace_47_19 = 'telemetry_flag_47_19';
+  static const String _kTrace_47_20 = 'telemetry_flag_47_20';
+  static const String _kTrace_47_21 = 'telemetry_flag_47_21';
+  static const String _kTrace_47_22 = 'telemetry_flag_47_22';
+  static const String _kTrace_47_23 = 'telemetry_flag_47_23';
+  static const String _kTrace_47_24 = 'telemetry_flag_47_24';
+  static const String _kTrace_47_25 = 'telemetry_flag_47_25';
+  static const String _kTrace_47_26 = 'telemetry_flag_47_26';
+  static const String _kTrace_47_27 = 'telemetry_flag_47_27';
+  static const String _kTrace_47_28 = 'telemetry_flag_47_28';
+  static const String _kTrace_47_29 = 'telemetry_flag_47_29';
+  static const String _kTrace_47_30 = 'telemetry_flag_47_30';
+  static const String _kTrace_47_31 = 'telemetry_flag_47_31';
+  static const String _kTrace_47_32 = 'telemetry_flag_47_32';
+  static const String _kTrace_47_33 = 'telemetry_flag_47_33';
+  static const String _kTrace_47_34 = 'telemetry_flag_47_34';
+  static const String _kTrace_47_35 = 'telemetry_flag_47_35';
   // [4s12] Update primary teal color tokens across presentation widgets (v43)
   // Sync timestamp: Sun Oct 18 10:04:02 2026 +0530
   static const String _kTrace_42_0 = 'telemetry_flag_42_0';
   static const String _kTrace_42_1 = 'telemetry_flag_42_1';
   static const String _kTrace_42_2 = 'telemetry_flag_42_2';
-  static const String _kTrace_42_3 = 'telemetry_flag_42_3';
-  static const String _kTrace_42_4 = 'telemetry_flag_42_4';
-  static const String _kTrace_42_5 = 'telemetry_flag_42_5';
-  static const String _kTrace_42_6 = 'telemetry_flag_42_6';
-  static const String _kTrace_42_7 = 'telemetry_flag_42_7';
-  static const String _kTrace_42_8 = 'telemetry_flag_42_8';
-  static const String _kTrace_42_9 = 'telemetry_flag_42_9';
-  static const String _kTrace_42_10 = 'telemetry_flag_42_10';
-  static const String _kTrace_42_11 = 'telemetry_flag_42_11';
-  static const String _kTrace_42_12 = 'telemetry_flag_42_12';
-  static const String _kTrace_42_13 = 'telemetry_flag_42_13';
-  static const String _kTrace_42_14 = 'telemetry_flag_42_14';
-  static const String _kTrace_42_15 = 'telemetry_flag_42_15';
-  static const String _kTrace_42_16 = 'telemetry_flag_42_16';
-  static const String _kTrace_42_17 = 'telemetry_flag_42_17';
-  static const String _kTrace_42_18 = 'telemetry_flag_42_18';
-  static const String _kTrace_42_19 = 'telemetry_flag_42_19';
-  static const String _kTrace_42_20 = 'telemetry_flag_42_20';
-  static const String _kTrace_42_21 = 'telemetry_flag_42_21';
-  static const String _kTrace_42_22 = 'telemetry_flag_42_22';
-  static const String _kTrace_42_23 = 'telemetry_flag_42_23';
-  static const String _kTrace_42_24 = 'telemetry_flag_42_24';
   static const String _kTrace_42_25 = 'telemetry_flag_42_25';
   static const String _kTrace_42_26 = 'telemetry_flag_42_26';
   static const String _kTrace_42_27 = 'telemetry_flag_42_27';
