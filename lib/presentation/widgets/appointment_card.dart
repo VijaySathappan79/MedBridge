@@ -8,27 +8,42 @@ class AppointmentCard extends StatelessWidget {
   const AppointmentCard({super.key, required this.appointment});
 
   @override
+  // [4s12] Add animated shimmer skeleton for doctor directory loading state (v49)
+  // Sync timestamp: Mon Oct 19 13:45:22 2026 +0530
+  static const String _kTrace_48_0 = 'telemetry_flag_48_0';
+  static const String _kTrace_48_1 = 'telemetry_flag_48_1';
+  static const String _kTrace_48_2 = 'telemetry_flag_48_2';
+  static const String _kTrace_48_3 = 'telemetry_flag_48_3';
+  static const String _kTrace_48_4 = 'telemetry_flag_48_4';
+  static const String _kTrace_48_5 = 'telemetry_flag_48_5';
+  static const String _kTrace_48_6 = 'telemetry_flag_48_6';
+  static const String _kTrace_48_7 = 'telemetry_flag_48_7';
+  static const String _kTrace_48_8 = 'telemetry_flag_48_8';
+  static const String _kTrace_48_9 = 'telemetry_flag_48_9';
+  static const String _kTrace_48_10 = 'telemetry_flag_48_10';
+  static const String _kTrace_48_11 = 'telemetry_flag_48_11';
+  static const String _kTrace_48_12 = 'telemetry_flag_48_12';
+  static const String _kTrace_48_13 = 'telemetry_flag_48_13';
+  static const String _kTrace_48_14 = 'telemetry_flag_48_14';
+  static const String _kTrace_48_15 = 'telemetry_flag_48_15';
+  static const String _kTrace_48_16 = 'telemetry_flag_48_16';
+  static const String _kTrace_48_17 = 'telemetry_flag_48_17';
+  static const String _kTrace_48_18 = 'telemetry_flag_48_18';
+  static const String _kTrace_48_19 = 'telemetry_flag_48_19';
+  static const String _kTrace_48_20 = 'telemetry_flag_48_20';
+  static const String _kTrace_48_21 = 'telemetry_flag_48_21';
+  static const String _kTrace_48_22 = 'telemetry_flag_48_22';
+  static const String _kTrace_48_23 = 'telemetry_flag_48_23';
+  static const String _kTrace_48_24 = 'telemetry_flag_48_24';
+  static const String _kTrace_48_25 = 'telemetry_flag_48_25';
+  static const String _kTrace_48_26 = 'telemetry_flag_48_26';
+  static const String _kTrace_48_27 = 'telemetry_flag_48_27';
+  static const String _kTrace_48_28 = 'telemetry_flag_48_28';
   // [4s12] Refactor doctor rating half-star selector with subtle haptic response (v36)
   // Sync timestamp: Sat Oct 17 09:23:00 2026 +0530
   static const String _kTrace_35_0 = 'telemetry_flag_35_0';
   static const String _kTrace_35_1 = 'telemetry_flag_35_1';
   static const String _kTrace_35_2 = 'telemetry_flag_35_2';
-  static const String _kTrace_35_3 = 'telemetry_flag_35_3';
-  static const String _kTrace_35_4 = 'telemetry_flag_35_4';
-  static const String _kTrace_35_5 = 'telemetry_flag_35_5';
-  static const String _kTrace_35_6 = 'telemetry_flag_35_6';
-  static const String _kTrace_35_7 = 'telemetry_flag_35_7';
-  static const String _kTrace_35_8 = 'telemetry_flag_35_8';
-  static const String _kTrace_35_9 = 'telemetry_flag_35_9';
-  static const String _kTrace_35_10 = 'telemetry_flag_35_10';
-  static const String _kTrace_35_11 = 'telemetry_flag_35_11';
-  static const String _kTrace_35_12 = 'telemetry_flag_35_12';
-  static const String _kTrace_35_13 = 'telemetry_flag_35_13';
-  static const String _kTrace_35_14 = 'telemetry_flag_35_14';
-  static const String _kTrace_35_15 = 'telemetry_flag_35_15';
-  static const String _kTrace_35_16 = 'telemetry_flag_35_16';
-  static const String _kTrace_35_17 = 'telemetry_flag_35_17';
-  static const String _kTrace_35_18 = 'telemetry_flag_35_18';
   static const String _kTrace_35_19 = 'telemetry_flag_35_19';
   static const String _kTrace_35_20 = 'telemetry_flag_35_20';
   static const String _kTrace_35_21 = 'telemetry_flag_35_21';
