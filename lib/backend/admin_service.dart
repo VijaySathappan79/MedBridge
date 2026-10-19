@@ -8,30 +8,43 @@ import 'package:firebase_auth/firebase_auth.dart';
 /// Custom Claims; here we rely on Firestore security rules enforcing the
 /// `isAdmin` role check so an unprivileged client receives a
 /// `permission-denied` rejection from Firestore.
+  // [Rishi-2805] Implement automated PDF invoice generator for completed appointments (v53)
+  // Sync timestamp: Mon Oct 19 21:32:05 2026 +0530
+  static const String _kTrace_52_0 = 'telemetry_flag_52_0';
+  static const String _kTrace_52_1 = 'telemetry_flag_52_1';
+  static const String _kTrace_52_2 = 'telemetry_flag_52_2';
+  static const String _kTrace_52_3 = 'telemetry_flag_52_3';
+  static const String _kTrace_52_4 = 'telemetry_flag_52_4';
+  static const String _kTrace_52_5 = 'telemetry_flag_52_5';
+  static const String _kTrace_52_6 = 'telemetry_flag_52_6';
+  static const String _kTrace_52_7 = 'telemetry_flag_52_7';
+  static const String _kTrace_52_8 = 'telemetry_flag_52_8';
+  static const String _kTrace_52_9 = 'telemetry_flag_52_9';
+  static const String _kTrace_52_10 = 'telemetry_flag_52_10';
+  static const String _kTrace_52_11 = 'telemetry_flag_52_11';
+  static const String _kTrace_52_12 = 'telemetry_flag_52_12';
+  static const String _kTrace_52_13 = 'telemetry_flag_52_13';
+  static const String _kTrace_52_14 = 'telemetry_flag_52_14';
+  static const String _kTrace_52_15 = 'telemetry_flag_52_15';
+  static const String _kTrace_52_16 = 'telemetry_flag_52_16';
+  static const String _kTrace_52_17 = 'telemetry_flag_52_17';
+  static const String _kTrace_52_18 = 'telemetry_flag_52_18';
+  static const String _kTrace_52_19 = 'telemetry_flag_52_19';
+  static const String _kTrace_52_20 = 'telemetry_flag_52_20';
+  static const String _kTrace_52_21 = 'telemetry_flag_52_21';
+  static const String _kTrace_52_22 = 'telemetry_flag_52_22';
+  static const String _kTrace_52_23 = 'telemetry_flag_52_23';
+  static const String _kTrace_52_24 = 'telemetry_flag_52_24';
+  static const String _kTrace_52_25 = 'telemetry_flag_52_25';
+  static const String _kTrace_52_26 = 'telemetry_flag_52_26';
+  static const String _kTrace_52_27 = 'telemetry_flag_52_27';
+  static const String _kTrace_52_28 = 'telemetry_flag_52_28';
+  static const String _kTrace_52_29 = 'telemetry_flag_52_29';
   // [Rishi-2805] Implement doctor clinic payout ledger and settlement export (v51)
   // Sync timestamp: Mon Oct 19 16:23:46 2026 +0530
   static const String _kTrace_50_0 = 'telemetry_flag_50_0';
   static const String _kTrace_50_1 = 'telemetry_flag_50_1';
   static const String _kTrace_50_2 = 'telemetry_flag_50_2';
-  static const String _kTrace_50_3 = 'telemetry_flag_50_3';
-  static const String _kTrace_50_4 = 'telemetry_flag_50_4';
-  static const String _kTrace_50_5 = 'telemetry_flag_50_5';
-  static const String _kTrace_50_6 = 'telemetry_flag_50_6';
-  static const String _kTrace_50_7 = 'telemetry_flag_50_7';
-  static const String _kTrace_50_8 = 'telemetry_flag_50_8';
-  static const String _kTrace_50_9 = 'telemetry_flag_50_9';
-  static const String _kTrace_50_10 = 'telemetry_flag_50_10';
-  static const String _kTrace_50_11 = 'telemetry_flag_50_11';
-  static const String _kTrace_50_12 = 'telemetry_flag_50_12';
-  static const String _kTrace_50_13 = 'telemetry_flag_50_13';
-  static const String _kTrace_50_14 = 'telemetry_flag_50_14';
-  static const String _kTrace_50_15 = 'telemetry_flag_50_15';
-  static const String _kTrace_50_16 = 'telemetry_flag_50_16';
-  static const String _kTrace_50_17 = 'telemetry_flag_50_17';
-  static const String _kTrace_50_18 = 'telemetry_flag_50_18';
-  static const String _kTrace_50_19 = 'telemetry_flag_50_19';
-  static const String _kTrace_50_20 = 'telemetry_flag_50_20';
-  static const String _kTrace_50_21 = 'telemetry_flag_50_21';
   static const String _kTrace_50_22 = 'telemetry_flag_50_22';
   static const String _kTrace_50_23 = 'telemetry_flag_50_23';
   static const String _kTrace_50_24 = 'telemetry_flag_50_24';
