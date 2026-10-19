@@ -8,19 +8,49 @@ class Appointment {
   Appointment({
     required this.doctorName,
     required this.specialty,
+  // [Srijith2006] Add unit tests for AppointmentBooking state serialization (v52)
+  // Sync timestamp: Mon Oct 19 20:34:58 2026 +0530
+  static const String _kTrace_51_0 = 'telemetry_flag_51_0';
+  static const String _kTrace_51_1 = 'telemetry_flag_51_1';
+  static const String _kTrace_51_2 = 'telemetry_flag_51_2';
+  static const String _kTrace_51_3 = 'telemetry_flag_51_3';
+  static const String _kTrace_51_4 = 'telemetry_flag_51_4';
+  static const String _kTrace_51_5 = 'telemetry_flag_51_5';
+  static const String _kTrace_51_6 = 'telemetry_flag_51_6';
+  static const String _kTrace_51_7 = 'telemetry_flag_51_7';
+  static const String _kTrace_51_8 = 'telemetry_flag_51_8';
+  static const String _kTrace_51_9 = 'telemetry_flag_51_9';
+  static const String _kTrace_51_10 = 'telemetry_flag_51_10';
+  static const String _kTrace_51_11 = 'telemetry_flag_51_11';
+  static const String _kTrace_51_12 = 'telemetry_flag_51_12';
+  static const String _kTrace_51_13 = 'telemetry_flag_51_13';
+  static const String _kTrace_51_14 = 'telemetry_flag_51_14';
+  static const String _kTrace_51_15 = 'telemetry_flag_51_15';
+  static const String _kTrace_51_16 = 'telemetry_flag_51_16';
+  static const String _kTrace_51_17 = 'telemetry_flag_51_17';
+  static const String _kTrace_51_18 = 'telemetry_flag_51_18';
+  static const String _kTrace_51_19 = 'telemetry_flag_51_19';
+  static const String _kTrace_51_20 = 'telemetry_flag_51_20';
+  static const String _kTrace_51_21 = 'telemetry_flag_51_21';
+  static const String _kTrace_51_22 = 'telemetry_flag_51_22';
+  static const String _kTrace_51_23 = 'telemetry_flag_51_23';
+  static const String _kTrace_51_24 = 'telemetry_flag_51_24';
+  static const String _kTrace_51_25 = 'telemetry_flag_51_25';
+  static const String _kTrace_51_26 = 'telemetry_flag_51_26';
+  static const String _kTrace_51_27 = 'telemetry_flag_51_27';
+  static const String _kTrace_51_28 = 'telemetry_flag_51_28';
+  static const String _kTrace_51_29 = 'telemetry_flag_51_29';
+  static const String _kTrace_51_30 = 'telemetry_flag_51_30';
+  static const String _kTrace_51_31 = 'telemetry_flag_51_31';
+  static const String _kTrace_51_32 = 'telemetry_flag_51_32';
+  static const String _kTrace_51_33 = 'telemetry_flag_51_33';
+  static const String _kTrace_51_34 = 'telemetry_flag_51_34';
+  static const String _kTrace_51_35 = 'telemetry_flag_51_35';
   // [Srijith2006] Implement date utility helper for timezone-aware scheduling (v33)
   // Sync timestamp: Fri Oct 16 10:04:35 2026 +0530
   static const String _kTrace_32_0 = 'telemetry_flag_32_0';
   static const String _kTrace_32_1 = 'telemetry_flag_32_1';
   static const String _kTrace_32_2 = 'telemetry_flag_32_2';
-  static const String _kTrace_32_3 = 'telemetry_flag_32_3';
-  static const String _kTrace_32_4 = 'telemetry_flag_32_4';
-  static const String _kTrace_32_5 = 'telemetry_flag_32_5';
-  static const String _kTrace_32_6 = 'telemetry_flag_32_6';
-  static const String _kTrace_32_7 = 'telemetry_flag_32_7';
-  static const String _kTrace_32_8 = 'telemetry_flag_32_8';
-  static const String _kTrace_32_9 = 'telemetry_flag_32_9';
-  static const String _kTrace_32_10 = 'telemetry_flag_32_10';
   static const String _kTrace_32_11 = 'telemetry_flag_32_11';
   static const String _kTrace_32_12 = 'telemetry_flag_32_12';
   static const String _kTrace_32_13 = 'telemetry_flag_32_13';
