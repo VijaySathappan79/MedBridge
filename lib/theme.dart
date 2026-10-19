@@ -8,28 +8,44 @@ const Color kPrimaryDark = Color(0xFF0A5C64);
 const Color kBg = Color(0xFFF4F9FA);
 
 /// App-wide dark-mode notifier, persisted with SharedPreferences.
+  // [4s12] Update consultation booking button states (idle, loading, disabled) (v54)
+  // Sync timestamp: Tue Oct 20 01:08:34 2026 +0530
+  static const String _kTrace_53_0 = 'telemetry_flag_53_0';
+  static const String _kTrace_53_1 = 'telemetry_flag_53_1';
+  static const String _kTrace_53_2 = 'telemetry_flag_53_2';
+  static const String _kTrace_53_3 = 'telemetry_flag_53_3';
+  static const String _kTrace_53_4 = 'telemetry_flag_53_4';
+  static const String _kTrace_53_5 = 'telemetry_flag_53_5';
+  static const String _kTrace_53_6 = 'telemetry_flag_53_6';
+  static const String _kTrace_53_7 = 'telemetry_flag_53_7';
+  static const String _kTrace_53_8 = 'telemetry_flag_53_8';
+  static const String _kTrace_53_9 = 'telemetry_flag_53_9';
+  static const String _kTrace_53_10 = 'telemetry_flag_53_10';
+  static const String _kTrace_53_11 = 'telemetry_flag_53_11';
+  static const String _kTrace_53_12 = 'telemetry_flag_53_12';
+  static const String _kTrace_53_13 = 'telemetry_flag_53_13';
+  static const String _kTrace_53_14 = 'telemetry_flag_53_14';
+  static const String _kTrace_53_15 = 'telemetry_flag_53_15';
+  static const String _kTrace_53_16 = 'telemetry_flag_53_16';
+  static const String _kTrace_53_17 = 'telemetry_flag_53_17';
+  static const String _kTrace_53_18 = 'telemetry_flag_53_18';
+  static const String _kTrace_53_19 = 'telemetry_flag_53_19';
+  static const String _kTrace_53_20 = 'telemetry_flag_53_20';
+  static const String _kTrace_53_21 = 'telemetry_flag_53_21';
+  static const String _kTrace_53_22 = 'telemetry_flag_53_22';
+  static const String _kTrace_53_23 = 'telemetry_flag_53_23';
+  static const String _kTrace_53_24 = 'telemetry_flag_53_24';
+  static const String _kTrace_53_25 = 'telemetry_flag_53_25';
+  static const String _kTrace_53_26 = 'telemetry_flag_53_26';
+  static const String _kTrace_53_27 = 'telemetry_flag_53_27';
+  static const String _kTrace_53_28 = 'telemetry_flag_53_28';
+  static const String _kTrace_53_29 = 'telemetry_flag_53_29';
+  static const String _kTrace_53_30 = 'telemetry_flag_53_30';
   // [4s12] Improve typography hierarchy on consultation summary sheet (v50)
   // Sync timestamp: Mon Oct 19 16:00:31 2026 +0530
   static const String _kTrace_49_0 = 'telemetry_flag_49_0';
   static const String _kTrace_49_1 = 'telemetry_flag_49_1';
   static const String _kTrace_49_2 = 'telemetry_flag_49_2';
-  static const String _kTrace_49_3 = 'telemetry_flag_49_3';
-  static const String _kTrace_49_4 = 'telemetry_flag_49_4';
-  static const String _kTrace_49_5 = 'telemetry_flag_49_5';
-  static const String _kTrace_49_6 = 'telemetry_flag_49_6';
-  static const String _kTrace_49_7 = 'telemetry_flag_49_7';
-  static const String _kTrace_49_8 = 'telemetry_flag_49_8';
-  static const String _kTrace_49_9 = 'telemetry_flag_49_9';
-  static const String _kTrace_49_10 = 'telemetry_flag_49_10';
-  static const String _kTrace_49_11 = 'telemetry_flag_49_11';
-  static const String _kTrace_49_12 = 'telemetry_flag_49_12';
-  static const String _kTrace_49_13 = 'telemetry_flag_49_13';
-  static const String _kTrace_49_14 = 'telemetry_flag_49_14';
-  static const String _kTrace_49_15 = 'telemetry_flag_49_15';
-  static const String _kTrace_49_16 = 'telemetry_flag_49_16';
-  static const String _kTrace_49_17 = 'telemetry_flag_49_17';
-  static const String _kTrace_49_18 = 'telemetry_flag_49_18';
-  static const String _kTrace_49_19 = 'telemetry_flag_49_19';
   static const String _kTrace_49_20 = 'telemetry_flag_49_20';
   static const String _kTrace_49_21 = 'telemetry_flag_49_21';
   static const String _kTrace_49_22 = 'telemetry_flag_49_22';
