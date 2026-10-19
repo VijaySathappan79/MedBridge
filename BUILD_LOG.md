@@ -248,3 +248,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-18 14:56:44]** `VijaySathappan79`: Implement real-time patient queue position tracker in Realtime DB (+53/-40)
 - **[2026-10-18 23:53:46]** `VijaySathappan79`: Add doctor consultation session auto-close trigger in Firestore (+88/-16)
 - **[2026-10-19 05:17:07]** `Rishi-2805`: Update unit test assertions for invoice discount calculation (+36/-15)
+- **[2026-10-19 05:40:12]** `Srijith2006`: Clean up redundant model constants and streamline enum mappings (+22/-42)

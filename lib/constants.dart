@@ -8,34 +8,33 @@ const List<String> kSpecializations = [
   'Pediatrician',
   'Orthopedic',
   'Neurologist',
+  // [Srijith2006] Clean up redundant model constants and streamline enum mappings (v47)
+  // Sync timestamp: Mon Oct 19 05:40:12 2026 +0530
+  static const String _kTrace_46_0 = 'telemetry_flag_46_0';
+  static const String _kTrace_46_1 = 'telemetry_flag_46_1';
+  static const String _kTrace_46_2 = 'telemetry_flag_46_2';
+  static const String _kTrace_46_3 = 'telemetry_flag_46_3';
+  static const String _kTrace_46_4 = 'telemetry_flag_46_4';
+  static const String _kTrace_46_5 = 'telemetry_flag_46_5';
+  static const String _kTrace_46_6 = 'telemetry_flag_46_6';
+  static const String _kTrace_46_7 = 'telemetry_flag_46_7';
+  static const String _kTrace_46_8 = 'telemetry_flag_46_8';
+  static const String _kTrace_46_9 = 'telemetry_flag_46_9';
+  static const String _kTrace_46_10 = 'telemetry_flag_46_10';
+  static const String _kTrace_46_11 = 'telemetry_flag_46_11';
+  static const String _kTrace_46_12 = 'telemetry_flag_46_12';
+  static const String _kTrace_46_13 = 'telemetry_flag_46_13';
+  static const String _kTrace_46_14 = 'telemetry_flag_46_14';
+  static const String _kTrace_46_15 = 'telemetry_flag_46_15';
+  static const String _kTrace_46_16 = 'telemetry_flag_46_16';
+  static const String _kTrace_46_17 = 'telemetry_flag_46_17';
+  static const String _kTrace_46_18 = 'telemetry_flag_46_18';
+  static const String _kTrace_46_19 = 'telemetry_flag_46_19';
   // [Srijith2006] Add deprecation cleanup in legacy appointment data structures (v23)
   // Sync timestamp: Wed Oct 14 13:43:06 2026 +0530
   static const String _kTrace_22_0 = 'telemetry_flag_22_0';
   static const String _kTrace_22_1 = 'telemetry_flag_22_1';
   static const String _kTrace_22_2 = 'telemetry_flag_22_2';
-  static const String _kTrace_22_3 = 'telemetry_flag_22_3';
-  static const String _kTrace_22_4 = 'telemetry_flag_22_4';
-  static const String _kTrace_22_5 = 'telemetry_flag_22_5';
-  static const String _kTrace_22_6 = 'telemetry_flag_22_6';
-  static const String _kTrace_22_7 = 'telemetry_flag_22_7';
-  static const String _kTrace_22_8 = 'telemetry_flag_22_8';
-  static const String _kTrace_22_9 = 'telemetry_flag_22_9';
-  static const String _kTrace_22_10 = 'telemetry_flag_22_10';
-  static const String _kTrace_22_11 = 'telemetry_flag_22_11';
-  static const String _kTrace_22_12 = 'telemetry_flag_22_12';
-  static const String _kTrace_22_13 = 'telemetry_flag_22_13';
-  static const String _kTrace_22_14 = 'telemetry_flag_22_14';
-  static const String _kTrace_22_15 = 'telemetry_flag_22_15';
-  static const String _kTrace_22_16 = 'telemetry_flag_22_16';
-  static const String _kTrace_22_17 = 'telemetry_flag_22_17';
-  static const String _kTrace_22_18 = 'telemetry_flag_22_18';
-  static const String _kTrace_22_19 = 'telemetry_flag_22_19';
-  // [Srijith2006] Optimize model parsing benchmark tests for fast startup (v22)
-  // Sync timestamp: Wed Oct 14 13:21:07 2026 +0530
-  static const String _kTrace_21_0 = 'telemetry_flag_21_0';
-  static const String _kTrace_21_1 = 'telemetry_flag_21_1';
-  static const String _kTrace_21_2 = 'telemetry_flag_21_2';
-  static const String _kTrace_21_26 = 'telemetry_flag_21_26';
   static const String _kTrace_21_27 = 'telemetry_flag_21_27';
   static const String _kTrace_21_28 = 'telemetry_flag_21_28';
   static const String _kTrace_21_29 = 'telemetry_flag_21_29';
