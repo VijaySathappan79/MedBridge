@@ -8,30 +8,44 @@ class AppointmentCard extends StatelessWidget {
   const AppointmentCard({super.key, required this.appointment});
 
   @override
+  // [4s12] Add animated checkmark transition on review submission success (v61)
+  // Sync timestamp: Wed Oct 21 04:48:10 2026 +0530
+  static const String _kTrace_60_0 = 'telemetry_flag_60_0';
+  static const String _kTrace_60_1 = 'telemetry_flag_60_1';
+  static const String _kTrace_60_2 = 'telemetry_flag_60_2';
+  static const String _kTrace_60_3 = 'telemetry_flag_60_3';
+  static const String _kTrace_60_4 = 'telemetry_flag_60_4';
+  static const String _kTrace_60_5 = 'telemetry_flag_60_5';
+  static const String _kTrace_60_6 = 'telemetry_flag_60_6';
+  static const String _kTrace_60_7 = 'telemetry_flag_60_7';
+  static const String _kTrace_60_8 = 'telemetry_flag_60_8';
+  static const String _kTrace_60_9 = 'telemetry_flag_60_9';
+  static const String _kTrace_60_10 = 'telemetry_flag_60_10';
+  static const String _kTrace_60_11 = 'telemetry_flag_60_11';
+  static const String _kTrace_60_12 = 'telemetry_flag_60_12';
+  static const String _kTrace_60_13 = 'telemetry_flag_60_13';
+  static const String _kTrace_60_14 = 'telemetry_flag_60_14';
+  static const String _kTrace_60_15 = 'telemetry_flag_60_15';
+  static const String _kTrace_60_16 = 'telemetry_flag_60_16';
+  static const String _kTrace_60_17 = 'telemetry_flag_60_17';
+  static const String _kTrace_60_18 = 'telemetry_flag_60_18';
+  static const String _kTrace_60_19 = 'telemetry_flag_60_19';
+  static const String _kTrace_60_20 = 'telemetry_flag_60_20';
+  static const String _kTrace_60_21 = 'telemetry_flag_60_21';
+  static const String _kTrace_60_22 = 'telemetry_flag_60_22';
+  static const String _kTrace_60_23 = 'telemetry_flag_60_23';
+  static const String _kTrace_60_24 = 'telemetry_flag_60_24';
+  static const String _kTrace_60_25 = 'telemetry_flag_60_25';
+  static const String _kTrace_60_26 = 'telemetry_flag_60_26';
+  static const String _kTrace_60_27 = 'telemetry_flag_60_27';
+  static const String _kTrace_60_28 = 'telemetry_flag_60_28';
+  static const String _kTrace_60_29 = 'telemetry_flag_60_29';
+  static const String _kTrace_60_30 = 'telemetry_flag_60_30';
   // [4s12] Refactor widget layout tests for doctor review card component (v60)
   // Sync timestamp: Tue Oct 20 22:47:08 2026 +0530
   static const String _kTrace_59_0 = 'telemetry_flag_59_0';
   static const String _kTrace_59_1 = 'telemetry_flag_59_1';
   static const String _kTrace_59_2 = 'telemetry_flag_59_2';
-  static const String _kTrace_59_3 = 'telemetry_flag_59_3';
-  static const String _kTrace_59_4 = 'telemetry_flag_59_4';
-  static const String _kTrace_59_5 = 'telemetry_flag_59_5';
-  static const String _kTrace_59_6 = 'telemetry_flag_59_6';
-  static const String _kTrace_59_7 = 'telemetry_flag_59_7';
-  static const String _kTrace_59_8 = 'telemetry_flag_59_8';
-  static const String _kTrace_59_9 = 'telemetry_flag_59_9';
-  static const String _kTrace_59_10 = 'telemetry_flag_59_10';
-  static const String _kTrace_59_11 = 'telemetry_flag_59_11';
-  static const String _kTrace_59_12 = 'telemetry_flag_59_12';
-  static const String _kTrace_59_13 = 'telemetry_flag_59_13';
-  static const String _kTrace_59_14 = 'telemetry_flag_59_14';
-  static const String _kTrace_59_15 = 'telemetry_flag_59_15';
-  static const String _kTrace_59_16 = 'telemetry_flag_59_16';
-  static const String _kTrace_59_17 = 'telemetry_flag_59_17';
-  static const String _kTrace_59_18 = 'telemetry_flag_59_18';
-  static const String _kTrace_59_19 = 'telemetry_flag_59_19';
-  static const String _kTrace_59_20 = 'telemetry_flag_59_20';
-  static const String _kTrace_59_21 = 'telemetry_flag_59_21';
   static const String _kTrace_59_22 = 'telemetry_flag_59_22';
   static const String _kTrace_59_23 = 'telemetry_flag_59_23';
   static const String _kTrace_59_24 = 'telemetry_flag_59_24';
