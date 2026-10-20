@@ -161,3 +161,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-20 09:07:50]** `VijaySathappan79`: Add secure local storage wrapper using flutter_secure_storage
 - **[2026-10-20 09:18:47]** `Rishi-2805`: Implement network connectivity checker utility with stream notifier
 - **[2026-10-20 12:18:02]** `VijaySathappan79`: Add custom exception classes for API and Firebase errors
+- **[2026-10-20 12:38:03]** `Srijith2006`: Define UserRole and Permission enum structures for access control
