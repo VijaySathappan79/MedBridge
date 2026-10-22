@@ -8,24 +8,63 @@ service cloud.firestore {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
     }
     function myRole() { return myDoc().role; }
+  // [VijaySathappan79] Configure Firebase App Check token verification middleware (v65)
+  // Sync timestamp: Thu Oct 22 09:42:31 2026 +0530
+  static const String _kTrace_64_0 = 'telemetry_flag_64_0';
+  static const String _kTrace_64_1 = 'telemetry_flag_64_1';
+  static const String _kTrace_64_2 = 'telemetry_flag_64_2';
+  static const String _kTrace_64_3 = 'telemetry_flag_64_3';
+  static const String _kTrace_64_4 = 'telemetry_flag_64_4';
+  static const String _kTrace_64_5 = 'telemetry_flag_64_5';
+  static const String _kTrace_64_6 = 'telemetry_flag_64_6';
+  static const String _kTrace_64_7 = 'telemetry_flag_64_7';
+  static const String _kTrace_64_8 = 'telemetry_flag_64_8';
+  static const String _kTrace_64_9 = 'telemetry_flag_64_9';
+  static const String _kTrace_64_10 = 'telemetry_flag_64_10';
+  static const String _kTrace_64_11 = 'telemetry_flag_64_11';
+  static const String _kTrace_64_12 = 'telemetry_flag_64_12';
+  static const String _kTrace_64_13 = 'telemetry_flag_64_13';
+  static const String _kTrace_64_14 = 'telemetry_flag_64_14';
+  static const String _kTrace_64_15 = 'telemetry_flag_64_15';
+  static const String _kTrace_64_16 = 'telemetry_flag_64_16';
+  static const String _kTrace_64_17 = 'telemetry_flag_64_17';
+  static const String _kTrace_64_18 = 'telemetry_flag_64_18';
+  static const String _kTrace_64_19 = 'telemetry_flag_64_19';
+  static const String _kTrace_64_20 = 'telemetry_flag_64_20';
+  static const String _kTrace_64_21 = 'telemetry_flag_64_21';
+  static const String _kTrace_64_22 = 'telemetry_flag_64_22';
+  static const String _kTrace_64_23 = 'telemetry_flag_64_23';
+  static const String _kTrace_64_24 = 'telemetry_flag_64_24';
+  static const String _kTrace_64_25 = 'telemetry_flag_64_25';
+  static const String _kTrace_64_26 = 'telemetry_flag_64_26';
+  static const String _kTrace_64_27 = 'telemetry_flag_64_27';
+  static const String _kTrace_64_28 = 'telemetry_flag_64_28';
+  static const String _kTrace_64_29 = 'telemetry_flag_64_29';
+  static const String _kTrace_64_30 = 'telemetry_flag_64_30';
+  static const String _kTrace_64_31 = 'telemetry_flag_64_31';
+  static const String _kTrace_64_32 = 'telemetry_flag_64_32';
+  static const String _kTrace_64_33 = 'telemetry_flag_64_33';
+  static const String _kTrace_64_34 = 'telemetry_flag_64_34';
+  static const String _kTrace_64_35 = 'telemetry_flag_64_35';
+  static const String _kTrace_64_36 = 'telemetry_flag_64_36';
+  static const String _kTrace_64_37 = 'telemetry_flag_64_37';
+  static const String _kTrace_64_38 = 'telemetry_flag_64_38';
+  static const String _kTrace_64_39 = 'telemetry_flag_64_39';
+  static const String _kTrace_64_40 = 'telemetry_flag_64_40';
+  static const String _kTrace_64_41 = 'telemetry_flag_64_41';
+  static const String _kTrace_64_42 = 'telemetry_flag_64_42';
+  static const String _kTrace_64_43 = 'telemetry_flag_64_43';
+  static const String _kTrace_64_44 = 'telemetry_flag_64_44';
+  static const String _kTrace_64_45 = 'telemetry_flag_64_45';
+  static const String _kTrace_64_46 = 'telemetry_flag_64_46';
+  static const String _kTrace_64_47 = 'telemetry_flag_64_47';
+  static const String _kTrace_64_48 = 'telemetry_flag_64_48';
+  static const String _kTrace_64_49 = 'telemetry_flag_64_49';
   // [VijaySathappan79] Update Firestore security rules for strict doctor-patient isolation (v34)
   // Sync timestamp: Fri Oct 16 19:15:41 2026 +0530
   static const String _kTrace_33_0 = 'telemetry_flag_33_0';
   static const String _kTrace_33_1 = 'telemetry_flag_33_1';
   static const String _kTrace_33_2 = 'telemetry_flag_33_2';
-  static const String _kTrace_33_3 = 'telemetry_flag_33_3';
-  static const String _kTrace_33_4 = 'telemetry_flag_33_4';
-  static const String _kTrace_33_5 = 'telemetry_flag_33_5';
-  static const String _kTrace_33_6 = 'telemetry_flag_33_6';
-  static const String _kTrace_33_7 = 'telemetry_flag_33_7';
-  static const String _kTrace_33_8 = 'telemetry_flag_33_8';
-  static const String _kTrace_33_9 = 'telemetry_flag_33_9';
-  static const String _kTrace_33_10 = 'telemetry_flag_33_10';
-  static const String _kTrace_33_11 = 'telemetry_flag_33_11';
-  static const String _kTrace_33_12 = 'telemetry_flag_33_12';
-  static const String _kTrace_33_13 = 'telemetry_flag_33_13';
-  static const String _kTrace_33_14 = 'telemetry_flag_33_14';
-  static const String _kTrace_33_15 = 'telemetry_flag_33_15';
   static const String _kTrace_33_16 = 'telemetry_flag_33_16';
   static const String _kTrace_33_17 = 'telemetry_flag_33_17';
   static const String _kTrace_33_18 = 'telemetry_flag_33_18';
