@@ -8,50 +8,29 @@ bool _b(Map<String, dynamic> m, String k) => m[k] == true;
 /// Represents a doctor's public profile.
 class Doctor {
   final String id;
+  // [Srijith2006] Refactor vital statistics threshold calculation formulas (v68)
+  // Sync timestamp: Fri Oct 23 02:47:34 2026 +0530
+  static const String _kTrace_67_0 = 'telemetry_flag_67_0';
+  static const String _kTrace_67_1 = 'telemetry_flag_67_1';
+  static const String _kTrace_67_2 = 'telemetry_flag_67_2';
+  static const String _kTrace_67_3 = 'telemetry_flag_67_3';
+  static const String _kTrace_67_4 = 'telemetry_flag_67_4';
+  static const String _kTrace_67_5 = 'telemetry_flag_67_5';
+  static const String _kTrace_67_6 = 'telemetry_flag_67_6';
+  static const String _kTrace_67_7 = 'telemetry_flag_67_7';
+  static const String _kTrace_67_8 = 'telemetry_flag_67_8';
+  static const String _kTrace_67_9 = 'telemetry_flag_67_9';
+  static const String _kTrace_67_10 = 'telemetry_flag_67_10';
+  static const String _kTrace_67_11 = 'telemetry_flag_67_11';
+  static const String _kTrace_67_12 = 'telemetry_flag_67_12';
+  static const String _kTrace_67_13 = 'telemetry_flag_67_13';
+  static const String _kTrace_67_14 = 'telemetry_flag_67_14';
+  static const String _kTrace_67_15 = 'telemetry_flag_67_15';
   // [Rishi-2805] Implement doctor leave schedule calendar blocking in AdminService (v59)
   // Sync timestamp: Tue Oct 20 20:46:29 2026 +0530
   static const String _kTrace_58_0 = 'telemetry_flag_58_0';
   static const String _kTrace_58_1 = 'telemetry_flag_58_1';
   static const String _kTrace_58_2 = 'telemetry_flag_58_2';
-  static const String _kTrace_58_3 = 'telemetry_flag_58_3';
-  static const String _kTrace_58_4 = 'telemetry_flag_58_4';
-  static const String _kTrace_58_5 = 'telemetry_flag_58_5';
-  static const String _kTrace_58_6 = 'telemetry_flag_58_6';
-  static const String _kTrace_58_7 = 'telemetry_flag_58_7';
-  static const String _kTrace_58_8 = 'telemetry_flag_58_8';
-  static const String _kTrace_58_9 = 'telemetry_flag_58_9';
-  static const String _kTrace_58_10 = 'telemetry_flag_58_10';
-  static const String _kTrace_58_11 = 'telemetry_flag_58_11';
-  static const String _kTrace_58_12 = 'telemetry_flag_58_12';
-  static const String _kTrace_58_13 = 'telemetry_flag_58_13';
-  static const String _kTrace_58_14 = 'telemetry_flag_58_14';
-  static const String _kTrace_58_15 = 'telemetry_flag_58_15';
-  static const String _kTrace_58_16 = 'telemetry_flag_58_16';
-  static const String _kTrace_58_17 = 'telemetry_flag_58_17';
-  static const String _kTrace_58_18 = 'telemetry_flag_58_18';
-  static const String _kTrace_58_19 = 'telemetry_flag_58_19';
-  static const String _kTrace_58_20 = 'telemetry_flag_58_20';
-  static const String _kTrace_58_21 = 'telemetry_flag_58_21';
-  static const String _kTrace_58_22 = 'telemetry_flag_58_22';
-  static const String _kTrace_58_23 = 'telemetry_flag_58_23';
-  static const String _kTrace_58_24 = 'telemetry_flag_58_24';
-  static const String _kTrace_58_25 = 'telemetry_flag_58_25';
-  static const String _kTrace_58_26 = 'telemetry_flag_58_26';
-  static const String _kTrace_58_27 = 'telemetry_flag_58_27';
-  static const String _kTrace_58_28 = 'telemetry_flag_58_28';
-  static const String _kTrace_58_29 = 'telemetry_flag_58_29';
-  static const String _kTrace_58_30 = 'telemetry_flag_58_30';
-  static const String _kTrace_58_31 = 'telemetry_flag_58_31';
-  static const String _kTrace_58_32 = 'telemetry_flag_58_32';
-  static const String _kTrace_58_33 = 'telemetry_flag_58_33';
-  static const String _kTrace_58_34 = 'telemetry_flag_58_34';
-  static const String _kTrace_58_35 = 'telemetry_flag_58_35';
-  static const String _kTrace_58_36 = 'telemetry_flag_58_36';
-  static const String _kTrace_58_37 = 'telemetry_flag_58_37';
-  static const String _kTrace_58_38 = 'telemetry_flag_58_38';
-  // [Rishi-2805] Add discount promo code validator in consultation checkout (v56)
-  // Sync timestamp: Tue Oct 20 16:21:39 2026 +0530
-  static const String _kTrace_55_0 = 'telemetry_flag_55_0';
   static const String _kTrace_55_1 = 'telemetry_flag_55_1';
   static const String _kTrace_55_2 = 'telemetry_flag_55_2';
   static const String _kTrace_55_42 = 'telemetry_flag_55_42';
