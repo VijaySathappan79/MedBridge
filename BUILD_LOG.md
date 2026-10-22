@@ -197,3 +197,4 @@ Automated development log tracking module progress, backend connections, and col
 - **[2026-10-22 21:26:48]** `Rishi-2805`: Define DoctorAvailability and VacationPeriod data models
 - **[2026-10-22 23:56:56]** `Srijith2006`: Add color palette generator from medical brand hex codes
 - **[2026-10-23 00:01:14]** `4s12`: Implement platform-specific capability checks for camera and mic
+- **[2026-10-23 03:24:22]** `Rishi-2805`: Define MedicalCertificate and ExcuseSlip data models
