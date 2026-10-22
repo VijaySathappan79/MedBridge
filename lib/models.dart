@@ -166,3 +166,182 @@ class ChatMessage {
     );
   }
 }
+
+// ── Additional models for backend services ────────────────────────────────────
+
+/// Invoice for a completed appointment — mirrors the `invoices` collection.
+class AppInvoice {
+  final String id;
+  final String appointmentId;
+  final String patientId;
+  final String doctorId;
+  final String patientName;
+  final String doctorName;
+  final String specialization;
+  final String hospital;
+  final String date;
+  final String timeSlot;
+  final int amount;
+
+  /// `unpaid` | `paid` | `refunded`
+  final String status;
+  final DateTime createdAt;
+
+  AppInvoice({
+    required this.id,
+    required this.appointmentId,
+    required this.patientId,
+    required this.doctorId,
+    required this.patientName,
+    required this.doctorName,
+    required this.specialization,
+    required this.hospital,
+    required this.date,
+    required this.timeSlot,
+    required this.amount,
+    required this.status,
+    DateTime? createdAt,
+  }) : createdAt = createdAt ?? DateTime.now();
+
+  factory AppInvoice.fromDoc(DocumentSnapshot<Map<String, dynamic>> d) {
+    final m = d.data() ?? <String, dynamic>{};
+    return AppInvoice(
+      id: d.id,
+      appointmentId: _s(m, 'appointmentId'),
+      patientId: _s(m, 'patientId'),
+      doctorId: _s(m, 'doctorId'),
+      patientName: _s(m, 'patientName'),
+      doctorName: _s(m, 'doctorName'),
+      specialization: _s(m, 'specialization'),
+      hospital: _s(m, 'hospital'),
+      date: _s(m, 'date'),
+      timeSlot: _s(m, 'timeSlot'),
+      amount: _i(m, 'amount'),
+      status: _s(m, 'status').isEmpty ? 'unpaid' : _s(m, 'status'),
+      createdAt: m['createdAt'] is Timestamp
+          ? (m['createdAt'] as Timestamp).toDate()
+          : DateTime.now(),
+    );
+  }
+
+  Map<String, dynamic> toMap() => {
+        'appointmentId': appointmentId,
+        'patientId': patientId,
+        'doctorId': doctorId,
+        'patientName': patientName,
+        'doctorName': doctorName,
+        'specialization': specialization,
+        'hospital': hospital,
+        'date': date,
+        'timeSlot': timeSlot,
+        'amount': amount,
+        'status': status,
+      };
+}
+
+/// A single health metric reading — mirrors the `healthMetrics` collection.
+class AppHealthMetric {
+  final String id;
+  final String patientId;
+
+  /// One of: `bp` | `hr` | `sugar` | `spo2` | `weight`
+  final String type;
+  final double value;
+
+  /// Diastolic value for BP; null for other types.
+  final double? secondaryValue;
+  final String unit;
+  final String note;
+  final DateTime recordedAt;
+
+  const AppHealthMetric({
+    required this.id,
+    required this.patientId,
+    required this.type,
+    required this.value,
+    this.secondaryValue,
+    required this.unit,
+    this.note = '',
+    required this.recordedAt,
+  });
+
+  factory AppHealthMetric.fromDoc(DocumentSnapshot<Map<String, dynamic>> d) {
+    final m = d.data() ?? <String, dynamic>{};
+    return AppHealthMetric(
+      id: d.id,
+      patientId: _s(m, 'patientId'),
+      type: _s(m, 'type'),
+      value: _d(m, 'value'),
+      secondaryValue: (m['secondaryValue'] as num?)?.toDouble(),
+      unit: _s(m, 'unit'),
+      note: _s(m, 'note'),
+      recordedAt: m['recordedAt'] is Timestamp
+          ? (m['recordedAt'] as Timestamp).toDate()
+          : DateTime.now(),
+    );
+  }
+
+  /// Display string e.g. "120/80 mmHg" (BP) or "72 bpm" (HR).
+  String get displayValue {
+    if (type == 'bp' && secondaryValue != null) {
+      return '${value.toStringAsFixed(0)}/${secondaryValue!.toStringAsFixed(0)} $unit';
+    }
+    return '${value % 1 == 0 ? value.toStringAsFixed(0) : value.toStringAsFixed(1)} $unit';
+  }
+
+  String get label => const {
+        'bp': 'Blood Pressure',
+        'hr': 'Heart Rate',
+        'sugar': 'Blood Sugar',
+        'spo2': 'SpO₂',
+        'weight': 'Weight',
+      }[type]!;
+}
+
+/// Top-level `chats/{chatId}` document summary for the chat inbox.
+class ChatThread {
+  final String id;
+  final String lastMessage;
+  final DateTime lastTimestamp;
+  final List<String> participants;
+  final Map<String, String> participantNames;
+
+  /// Unread message counts keyed by user UID.
+  final Map<String, int> unreadCounts;
+
+  const ChatThread({
+    required this.id,
+    required this.lastMessage,
+    required this.lastTimestamp,
+    required this.participants,
+    required this.participantNames,
+    required this.unreadCounts,
+  });
+
+  int unreadCountFor(String uid) => unreadCounts[uid] ?? 0;
+
+  factory ChatThread.fromDoc(DocumentSnapshot<Map<String, dynamic>> d) {
+    final m = d.data() ?? <String, dynamic>{};
+    final rawCounts = m['unreadCounts'];
+    final counts = rawCounts is Map
+        ? rawCounts
+            .map((k, v) => MapEntry(k.toString(), (v as num?)?.toInt() ?? 0))
+        : <String, int>{};
+    final names =
+        (m['participantNames'] as Map<String, dynamic>?)?.map(
+              (k, v) => MapEntry(k, v.toString()),
+            ) ??
+            <String, String>{};
+    return ChatThread(
+      id: d.id,
+      lastMessage: _s(m, 'lastMessage'),
+      lastTimestamp: m['lastTimestamp'] is Timestamp
+          ? (m['lastTimestamp'] as Timestamp).toDate()
+          : DateTime.now(),
+      participants: List<String>.from(m['participants'] ?? []),
+      participantNames: names,
+      unreadCounts: counts,
+    );
+  }
+}
+
