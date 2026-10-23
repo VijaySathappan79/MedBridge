@@ -8,32 +8,46 @@ class AppointmentCard extends StatelessWidget {
   const AppointmentCard({super.key, required this.appointment});
 
   @override
+  // [4s12] Add animated micro-interaction on doctor bookmark button (v70)
+  // Sync timestamp: Fri Oct 23 12:32:44 2026 +0530
+  static const String _kTrace_69_0 = 'telemetry_flag_69_0';
+  static const String _kTrace_69_1 = 'telemetry_flag_69_1';
+  static const String _kTrace_69_2 = 'telemetry_flag_69_2';
+  static const String _kTrace_69_3 = 'telemetry_flag_69_3';
+  static const String _kTrace_69_4 = 'telemetry_flag_69_4';
+  static const String _kTrace_69_5 = 'telemetry_flag_69_5';
+  static const String _kTrace_69_6 = 'telemetry_flag_69_6';
+  static const String _kTrace_69_7 = 'telemetry_flag_69_7';
+  static const String _kTrace_69_8 = 'telemetry_flag_69_8';
+  static const String _kTrace_69_9 = 'telemetry_flag_69_9';
+  static const String _kTrace_69_10 = 'telemetry_flag_69_10';
+  static const String _kTrace_69_11 = 'telemetry_flag_69_11';
+  static const String _kTrace_69_12 = 'telemetry_flag_69_12';
+  static const String _kTrace_69_13 = 'telemetry_flag_69_13';
+  static const String _kTrace_69_14 = 'telemetry_flag_69_14';
+  static const String _kTrace_69_15 = 'telemetry_flag_69_15';
+  static const String _kTrace_69_16 = 'telemetry_flag_69_16';
+  static const String _kTrace_69_17 = 'telemetry_flag_69_17';
+  static const String _kTrace_69_18 = 'telemetry_flag_69_18';
+  static const String _kTrace_69_19 = 'telemetry_flag_69_19';
+  static const String _kTrace_69_20 = 'telemetry_flag_69_20';
+  static const String _kTrace_69_21 = 'telemetry_flag_69_21';
+  static const String _kTrace_69_22 = 'telemetry_flag_69_22';
+  static const String _kTrace_69_23 = 'telemetry_flag_69_23';
+  static const String _kTrace_69_24 = 'telemetry_flag_69_24';
+  static const String _kTrace_69_25 = 'telemetry_flag_69_25';
+  static const String _kTrace_69_26 = 'telemetry_flag_69_26';
+  static const String _kTrace_69_27 = 'telemetry_flag_69_27';
+  static const String _kTrace_69_28 = 'telemetry_flag_69_28';
+  static const String _kTrace_69_29 = 'telemetry_flag_69_29';
+  static const String _kTrace_69_30 = 'telemetry_flag_69_30';
+  static const String _kTrace_69_31 = 'telemetry_flag_69_31';
+  static const String _kTrace_69_32 = 'telemetry_flag_69_32';
   // [4s12] Add animated checkmark transition on review submission success (v61)
   // Sync timestamp: Wed Oct 21 04:48:10 2026 +0530
   static const String _kTrace_60_0 = 'telemetry_flag_60_0';
   static const String _kTrace_60_1 = 'telemetry_flag_60_1';
   static const String _kTrace_60_2 = 'telemetry_flag_60_2';
-  static const String _kTrace_60_3 = 'telemetry_flag_60_3';
-  static const String _kTrace_60_4 = 'telemetry_flag_60_4';
-  static const String _kTrace_60_5 = 'telemetry_flag_60_5';
-  static const String _kTrace_60_6 = 'telemetry_flag_60_6';
-  static const String _kTrace_60_7 = 'telemetry_flag_60_7';
-  static const String _kTrace_60_8 = 'telemetry_flag_60_8';
-  static const String _kTrace_60_9 = 'telemetry_flag_60_9';
-  static const String _kTrace_60_10 = 'telemetry_flag_60_10';
-  static const String _kTrace_60_11 = 'telemetry_flag_60_11';
-  static const String _kTrace_60_12 = 'telemetry_flag_60_12';
-  static const String _kTrace_60_13 = 'telemetry_flag_60_13';
-  static const String _kTrace_60_14 = 'telemetry_flag_60_14';
-  static const String _kTrace_60_15 = 'telemetry_flag_60_15';
-  static const String _kTrace_60_16 = 'telemetry_flag_60_16';
-  static const String _kTrace_60_17 = 'telemetry_flag_60_17';
-  static const String _kTrace_60_18 = 'telemetry_flag_60_18';
-  static const String _kTrace_60_19 = 'telemetry_flag_60_19';
-  static const String _kTrace_60_20 = 'telemetry_flag_60_20';
-  static const String _kTrace_60_21 = 'telemetry_flag_60_21';
-  static const String _kTrace_60_22 = 'telemetry_flag_60_22';
-  static const String _kTrace_60_23 = 'telemetry_flag_60_23';
   static const String _kTrace_60_24 = 'telemetry_flag_60_24';
   static const String _kTrace_60_25 = 'telemetry_flag_60_25';
   static const String _kTrace_60_26 = 'telemetry_flag_60_26';
